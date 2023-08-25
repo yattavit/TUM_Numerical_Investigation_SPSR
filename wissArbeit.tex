@@ -1,0 +1,93 @@
+%
+%Hauptdatei
+%
+
+\input{header}
+
+\begin{document}
+
+%#########################################################################
+%Titelseite
+%#########################################################################
+\begingroup
+		\pagenumbering{Roman} 
+		\KOMAoption{headsepline}{false}
+		\pagestyle{empty}
+		\pagenumbering{roman} 
+		\cleardoublepage\pdfbookmark{Title Page}{title}
+		\input{Chapter/TitlePage}
+\endgroup
+\restoregeometry
+\KOMAoption{headsepline}{true}
+%
+%#########################################################################
+%Vorwort
+%#########################################################################
+\begingroup
+		%---
+		%\phantomsection %Auskommentieren, wenn nicht benötigt
+		%\input{Chapter/RestrictionNote}
+		%---
+		%\phantomsection %Auskommentieren, wenn nicht benötigt
+		%\input{Chapter/Acknowledgments}
+		%---		
+		\phantomsection\addcontentsline{toc}{chapter}{Abstract} %Auskommentieren, wenn nicht benötigt
+		\input{Chapter/Abstract}
+\endgroup
+%
+%#########################################################################
+%Verzeichnisse
+%#########################################################################
+\begingroup
+		%---
+		\phantomsection\pdfbookmark{\contentsname}{toc}	
+		\tableofcontents
+		\cleardoublepage
+		%---
+		\phantomsection\addcontentsline{toc}{chapter}{List of Figures}
+		\listoffigures
+		\cleardoublepage
+		%---
+		\phantomsection\addcontentsline{toc}{chapter}{List of Tables}
+		\listoftables
+		\cleardoublepage
+		%---
+		\lstlistoflistings
+		\addcontentsline{toc}{chapter}{List of Source-Codes}
+		\cleardoublepage
+		%---
+		\input{Chapter/Nomenclature}
+		\cleardoublepage
+		%---	
+\endgroup
+%
+%
+%#########################################################################
+%Schriftliche Abfassung
+%#########################################################################
+\begingroup
+	\setcounter{page}{1}
+	\setcounter{secnumdepth}{4}
+	\setcounter{tocdepth}{3}
+	\pagenumbering{arabic}	
+%% input of chapters		
+\input{Chapter/01_Introduction}
+\input{Chapter/02_Theory_Theoretical_Background_Model_Description}
+\input{Chapter/03_Modeling_Implementation}
+\input{Chapter/04_Results_Discussion}
+\input{Chapter/05_Summary_and_Outlook}
+\endgroup
+
+%#########################################################################
+%Anhang
+%#########################################################################
+\begingroup
+	\setcounter{secnumdepth}{2}
+	\setcounter{tocdepth}{2}
+	\setcounter{chapter}{0}
+	\appendix	
+	\input{Chapter/Literature}
+	\input{Chapter/Declaration}	
+\endgroup
+%
+\end{document}

@@ -1,0 +1,9 @@
+		\begin{tikzpicture} 
+		\begin{axis}[
+		xlabel={Öffnungsweite der MFCs} {[\si{\percent}]} ,
+		ylabel={Fluss} {[\si{\milli\liter\per\minute}]} ,  
+		legend pos= north west]
+		\addplot gnuplot[no marks, thick, red, domain=0:60, id=reg]{2.7*x-5.7};
+		\addlegendentry{2.7*x-5.7}
+		\end{axis}
+		\end{tikzpicture}

@@ -1,0 +1,22 @@
+\begin{tikzpicture}[trim axis left,trim axis right]
+\begin{axis}[
+		xlabel={Öffnungsweite der MFCs} {/ \si{\percent}} ,
+		ylabel={Fluss} {/ \si{\milli\liter\per\minute}} ,  
+		legend pos= north west]
+\addplot [
+		only marks,
+		mark=*,
+		/pgfplots/error bars/.cd,
+    x dir = both,
+    y dir = both,
+    x explicit,
+    y explicit]
+table[
+    x=X,
+    y=Y,
+    x error=Xerr,
+    y error=Yerr,
+    col sep=comma,] {Figures/test.csv};
+\addlegendentry {Datenpunkte}
+\end{axis}
+\end{tikzpicture}

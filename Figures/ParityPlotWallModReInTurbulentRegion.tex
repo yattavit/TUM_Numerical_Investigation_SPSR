@@ -1,0 +1,81 @@
+\begin{tikzpicture}
+\begin{axis}[
+xmode=log,
+ymode=log,
+xmin=4E7,
+xmax=2E10,
+ymin=1.5E6,
+ymax=3E10,
+width=10cm,
+xtick pos=left,
+xlabel={pressure drop by simulation$\ \ \big[\frac{\Delta P}{L}\big]_{sim}\  /\ \si{\pascal\per\metre} \ \longrightarrow$},
+								ylabel={pressure drop by correlation$\ \ \big[\frac{\Delta P}{L}\big]_{cor}\  /\ \si{\pascal\per\metre} \ \longrightarrow$},
+clip=false,
+legend cell align=left,
+legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 1.05,0.995)}}
+]
+\addplot[only marks, mark options={color=TUMElfenbein, mark=otimes*, scale=1.7}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/ErgunWithModifiedDiameterPdropCor_wallmodre.txt}; \addlegendentry{Ergun with modified diameter, $f_{w,1}$}
+
+\addplot[only marks, mark = otimes*, mark options={draw=TUMBlauHell20, fill=TUMBlauDunkel, scale=1.0}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/Ergun_fw2_PdropCor_wallmodre.txt}; \addlegendentry{Ergun with weighting factor, $f_{w,2}$}
+
+\addplot[only marks, mark = circle*, mark options={color=TUMBlauHell, mark=otimes*, scale=1.2}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/OriginalErgunPdropCor_wallmodre.txt}; \addlegendentry{Original Ergun Equation}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauHell50, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/WentzThodosPdropCor_wallmodre.txt}; \addlegendentry{WentzThodos}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauHell80, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/HicksPdropCor_wallmodre.txt}; \addlegendentry{Hicks}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauHell, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/TallmadgePdropCor_wallmodre.txt}; \addlegendentry{Tallmadge}
+
+\addplot[only marks, mark = star, mark options={draw=TUMBlau, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/KuoNydeggerPdropCor_wallmodre.txt}; \addlegendentry{Kuo and Nydegger}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMOrange, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/KTAPdropCor_wallmodre.txt}; \addlegendentry{KTA}
+
+\addplot[only marks, mark = diamond*, mark options={draw=TUMElfenbein, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/JonesKrierPdropCor_wallmodre.txt}; \addlegendentry{Jones and Krier}
+
+\addplot [only marks, color=TUMMagenta, mark=star] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/LeeOgawaPdropCor_wallmodre.txt}; \addlegendentry{Lee and Ogawa}
+
+\addplot[only marks, mark = triangle*, mark options={color=TUMBlauHell, scale=1}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/AvontuurGeldartPdropCor_wallmodre.txt}; \addlegendentry{Avontuur and Geldart}
+
+\addplot[only marks, mark = diamond*, mark options={draw=TUMGruenDunkel, fill=TUMGruenDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/OneillBenyahiaPdropCor_wallmodre.txt}; \addlegendentry{O'Neill and Benyahia}
+
+\addplot[only marks, mark = star, mark options={draw=TUMGruen, fill=TUMGruen, scale=1}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/MacdonaldEl-SayedMowDullienPdropCor_wallmodre.txt}; \addlegendentry{Macdonald et al.}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMRotHell, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/EisfeldSchnitzleinPdropCor_wallmodre.txt}; \addlegendentry{EisfeldSchnitzlein}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMRotHell, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/CarmanPdropCor_wallmodre.txt}; \addlegendentry{Carman}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMRotHell, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/BrauerPdropCor_wallmodre.txt}; \addlegendentry{Brauer}
+
+%\addplot[only marks, mark = diamond*, mark options={draw=TUMRotHell, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/HandleyandHeggsPdropCor_wallmodre.txt}; \addlegendentry{Handley and Heggs}
+
+%\addplot[only marks, mark = diamond*, mark options={color=TUMBlauHell, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/MacdonaldEl-SayedMowDullienPdropCor_wallmodre.txt}; \addlegendentry{Macdonald, El-Sayed, Mow, Dullien}
+
+%Now comparing Cases D1, D2 and D3 pdrop in wall mod. Reynolds
+\addplot[only marks, mark = square*, mark options={draw=TUMOrange, fill=TUMOrange, scale=0.5}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/D1PdropCor_wallmodre.txt}; \addlegendentry{D1 with Ergun correlation}
+
+\addplot[only marks, mark = square*, mark options={draw=TUMGrau50, fill=TUMGrau50, scale=0.5}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/D2PdropCor_wallmodre.txt}; \addlegendentry{D2 with Ergun correlation}
+
+\addplot[only marks, mark = square*, mark options={draw=TUMGrau20, fill=TUMGrau20, scale=0.5}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/D3PdropCor_wallmodre.txt}; \addlegendentry{D3 with Ergun correlation}
+
+
+
+
+
+
+
+
+
+
+
+% draw the diagonal
+\addplot[domain=4E7:2E10, samples=2, color=TUMSchwarz] {x}; \addlegendentry{Parity}
+%draw the 10% envelope for upper and lower limit
+\addplot[dashed, domain=4E7:2E10, samples=2, color=TUMSchwarz] {0.9*x};
+\addplot[dashed, domain=4E7:2E10, samples=2, color=TUMSchwarz] {1.1*x};
+\addlegendentry{10\% envelope}
+%draw the 50% envelope upper and lower limit
+\addplot[dotted, domain=4E7:2E10, samples=2, color=TUMSchwarz] {0.5*x};
+\addplot[dotted, domain=4E7:2E10, samples=2, color=TUMSchwarz] {1.5*x};
+\addlegendentry{50\% envelope}
+\end{axis}
+\end{tikzpicture}

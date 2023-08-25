@@ -1,0 +1,7 @@
+Delta P/L [sim]	Jones and Krier Pdrop correlation
+4.98E+07	1.60E+07
+1.14E+08	3.39E+07
+1.99E+08	5.78E+07
+2.88E+08	8.75E+07
+1.14E+09	3.18E+08
+1.02E+10	2.47E+09

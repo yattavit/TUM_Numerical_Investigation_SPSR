@@ -1,0 +1,31 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Plot of the dimensionless velocity, $u^+$, against the dimensionless wall coordinate, $y+$, showing different zones of interest.\relax }}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Slice of Base Case Showing Mesh Resolution.\relax }}{12}{figure.caption.18}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Bottom section of a SPSR with trigonometric expressions used for analytical pellet positions.}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Comparison of pressure drop across SPSR variations with Ergun and Blake-Kozeny using modified equivalent diameter.}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Case A upon viewing with Paraview.\relax }}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Case A after Cull FrontFace is activated.\relax }}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces First Slice made at the start of catalytic pellet string.\relax }}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Second Slice made at the end of the catalytic pellet string.\relax }}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Extraction of pressure values obtained from IntegrateVariables1, the relevant pressure values are highlighted.\relax }}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Extraction of pressure values obtained from IntegrateVariables2, the relevant pressure values are highlighted.\relax }}{28}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Influence of fluid viscosity, flow velocity, diameter aspect ratio and geometry scaling factor on pressure drop.\relax }}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Front view of case D3 highlighting meandering fluid flow.\relax }}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Side view of case D3 highlighting fluid passing the particles in a straight manner perpendicular to the plane through the pellet centres.\relax }}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Simulative and Literature Friction Factor against normal Reynolds number.\relax }}{33}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Simulative and Literature Friction Factor against wall modified Reynolds number.\relax }}{33}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Parity plot for normal Reynolds in turbulent region, correlations as displayed by Erdim et al.}}{36}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Parity plot for wall modified Reynolds in turbulent region, correlations as displayed by Erdim et al.}}{36}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Parity plot showing the effects of weighting factors on cases with varying diameter aspect ratios, correlations obtained from Erdim et al.}}{37}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Wall surface weighting factor as a function of diameter aspect ratio.}}{40}{figure.caption.31}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

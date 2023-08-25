@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+\begin{axis}[
+xmin=1,
+xmax=1.9,
+ymin=7.5E6,
+ymax=1.2E8,
+width=8cm,
+xtick pos=left,
+xlabel={diameter aspect ratio $\frac{D}{d}/ - \ \longrightarrow$},
+ylabel={pressure drop $\frac{\Delta P}{L}\ /\ \si{\pascal\per\metre} \longrightarrow$},
+clip=false,
+legend cell align=left,
+legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north east, at={(rel axis cs: 0.95,1)}}
+]
+\addplot[only marks, mark options={color=TUMBlauDunkel, mark=square*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/DiameterAspectRatio_D1.txt}; \addlegendentry{D/d = 1.125 (D1)}
+
+\addplot[only marks, mark options={color=TUMOrange, mark=x, scale=2}] table[x index = 0,y index = 1]{Figures/pressure/data/DiameterAspectRatio_A.txt}; \addlegendentry{D/d = 1.25 (A)}
+
+\addplot[only marks, mark options={color=TUMBlauHell, mark=square*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/DiameterAspectRatio_D2.txt}; \addlegendentry{D/d = 1.5 (D2)}
+
+\addplot[only marks, mark options={color=TUMBlauAkzent1, mark=square*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/DiameterAspectRatio_D3.txt}; \addlegendentry{D/d = 1.75 (D3)}
+
+\end{axis}
+\end{tikzpicture}
+%\addplot[only marks, mark = circle*, mark options={color=TUMBlauHell, mark=otimes*, scale=1.2}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/OriginalErgunPdropCor_wallmodre.txt}; \addlegendentry{Original Ergun}

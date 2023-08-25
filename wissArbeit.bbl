@@ -1,0 +1,1783 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Warnecke2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=486064a867bc34eaccd95c7c33a8ed3d}{%
+           family={Warnecke},
+           familyi={W\bibinitperiod},
+           given={Ragnar},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{486064a867bc34eaccd95c7c33a8ed3d}
+      \strng{fullhash}{486064a867bc34eaccd95c7c33a8ed3d}
+      \strng{bibnamehash}{486064a867bc34eaccd95c7c33a8ed3d}
+      \strng{authorbibnamehash}{486064a867bc34eaccd95c7c33a8ed3d}
+      \strng{authornamehash}{486064a867bc34eaccd95c7c33a8ed3d}
+      \strng{authorfullhash}{486064a867bc34eaccd95c7c33a8ed3d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biomass and bioenergy}
+      \field{number}{6}
+      \field{title}{Gasification of biomass: comparison of fixed bed and fluidized bed gasifier}
+      \field{volume}{18}
+      \field{year}{2000}
+      \field{pages}{489\bibrangedash 497}
+      \range{pages}{9}
+    \endentry
+    \entry{Menter2001}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=628620d3cc0f73ed375cafcd2c6fac8e}{%
+           family={Menter},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=45d3bbb75e3e3be33a6cafb00499daf7}{%
+           family={Esch},
+           familyi={E\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4921e19a8f865eca3d27f97d7a67cb03}
+      \strng{fullhash}{4921e19a8f865eca3d27f97d7a67cb03}
+      \strng{bibnamehash}{4921e19a8f865eca3d27f97d7a67cb03}
+      \strng{authorbibnamehash}{4921e19a8f865eca3d27f97d7a67cb03}
+      \strng{authornamehash}{4921e19a8f865eca3d27f97d7a67cb03}
+      \strng{authorfullhash}{4921e19a8f865eca3d27f97d7a67cb03}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{16th Brazilian Congress of Mechanical Engineering (COBEM)}
+      \field{title}{Elements of industrial heat transfer predictions}
+      \field{volume}{109}
+      \field{year}{2001}
+      \field{pages}{650}
+      \range{pages}{1}
+    \endentry
+    \entry{Menter2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2143101ca93c44d83ed2e5ca610e99ad}{%
+           family={Menter},
+           familyi={M\bibinitperiod},
+           given={Florian\bibnamedelima R},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e14358224167900a6ab03d20897b9ee8}{%
+           family={Kuntz},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6a6ae37a4ca0850c56adc8363bed3bf3}{%
+           family={Langtry},
+           familyi={L\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcf79502ba035087e0a94f576b3d1f6f}
+      \strng{fullhash}{3a7768a83099a76084e86d7bafca5d96}
+      \strng{bibnamehash}{3a7768a83099a76084e86d7bafca5d96}
+      \strng{authorbibnamehash}{3a7768a83099a76084e86d7bafca5d96}
+      \strng{authornamehash}{fcf79502ba035087e0a94f576b3d1f6f}
+      \strng{authorfullhash}{3a7768a83099a76084e86d7bafca5d96}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Turbulence, heat and mass transfer}
+      \field{number}{1}
+      \field{title}{Ten years of industrial experience with the SST turbulence model}
+      \field{volume}{4}
+      \field{year}{2003}
+      \field{pages}{625\bibrangedash 632}
+      \range{pages}{8}
+    \endentry
+    \entry{Scott1974}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0c604760dfe37f36b93a0ed8d91eb712}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={DS},
+           giveni={D\bibinitperiod}}}%
+        {{hash=55f4982632d78efab91399f58dab04a2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Wey},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1a364f0c19c3693d1bb2b093a1e7fe7b}{%
+           family={Papa},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a845a882c5a1ed1ad910135b539e77c3}
+      \strng{fullhash}{d755b3b62f9d37604d0561c07f3121a4}
+      \strng{bibnamehash}{d755b3b62f9d37604d0561c07f3121a4}
+      \strng{authorbibnamehash}{d755b3b62f9d37604d0561c07f3121a4}
+      \strng{authornamehash}{a845a882c5a1ed1ad910135b539e77c3}
+      \strng{authorfullhash}{d755b3b62f9d37604d0561c07f3121a4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Science}
+      \field{number}{11}
+      \field{title}{The measurement of transport coefficients in gas-solid heterogeneous reactions}
+      \field{volume}{29}
+      \field{year}{1974}
+      \field{pages}{2155\bibrangedash 2167}
+      \range{pages}{13}
+    \endentry
+    \entry{Klyushina2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f554e3543d4259ac9fff8edff82827a2}{%
+           family={Klyushina},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c72272b0d648e949e63789e14c8478e4}{%
+           family={Pacultov{á}},
+           familyi={P\bibinitperiod},
+           given={Kate{ř}ina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d9ec497d8c01bd724acf5fa340415e2c}{%
+           family={Obalov{á}},
+           familyi={O\bibinitperiod},
+           given={Lucie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0041d4f55d775440f7385d96e6375f3b}
+      \strng{fullhash}{2e6fec7fbef90dc84b550ad494703793}
+      \strng{bibnamehash}{2e6fec7fbef90dc84b550ad494703793}
+      \strng{authorbibnamehash}{2e6fec7fbef90dc84b550ad494703793}
+      \strng{authornamehash}{0041d4f55d775440f7385d96e6375f3b}
+      \strng{authorfullhash}{2e6fec7fbef90dc84b550ad494703793}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reaction Kinetics, Mechanisms and Catalysis}
+      \field{number}{2}
+      \field{title}{Advantage of the single pellet string reactor for testing real-size industrial pellets of potassium-doped CoMnAl catalyst for the decomposition of N 2 O}
+      \field{volume}{115}
+      \field{year}{2015}
+      \field{pages}{651\bibrangedash 662}
+      \range{pages}{12}
+    \endentry
+    \entry{Moonen2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6f8e15dd861459222b0a5f85ec5a6302}{%
+           family={Moonen},
+           familyi={M\bibinitperiod},
+           given={Roel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18754f4c5ca47391af5f45a1ef2c8f4c}{%
+           family={Alles},
+           familyi={A\bibinitperiod},
+           given={Jeroen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ae01c5928162e9a6727cc90f4dcea1bf}{%
+           family={Ras},
+           familyi={R\bibinitperiod},
+           given={Erik-jan},
+           giveni={E\bibinithyphendelim j\bibinitperiod}}}%
+        {{hash=f49c438804e21de27e912b973698300d}{%
+           family={Harvey},
+           familyi={H\bibinitperiod},
+           given={Clare},
+           giveni={C\bibinitperiod}}}%
+        {{hash=27d8b7d8d3c8d600fbd4f0cb30ba0b57}{%
+           family={Moulijn},
+           familyi={M\bibinitperiod},
+           given={Jacob\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{a69621206c45d69350c15b3c199cbcc9}
+      \strng{fullhash}{f0be65069265fd8f4066ed4a5d5b20a2}
+      \strng{bibnamehash}{f0be65069265fd8f4066ed4a5d5b20a2}
+      \strng{authorbibnamehash}{f0be65069265fd8f4066ed4a5d5b20a2}
+      \strng{authornamehash}{a69621206c45d69350c15b3c199cbcc9}
+      \strng{authorfullhash}{f0be65069265fd8f4066ed4a5d5b20a2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering \& Technology}
+      \field{number}{11}
+      \field{title}{Performance testing of hydrodesulfurization catalysts using a single-pellet-string reactor}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{pages}{2025\bibrangedash 2034}
+      \range{pages}{10}
+    \endentry
+    \entry{Mueller2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d2e98f996a2eb187b27e81a798b5e7bb}{%
+           family={M{ü}ller},
+           familyi={M\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=41d886145791d46e145e4e519d4f8dd6}{%
+           family={Kanz},
+           familyi={K\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90b310455bfd5163af2a94149d41fbdf}{%
+           family={Haase},
+           familyi={H\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b987b844861c199e77f0ae4b7f3970cf}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8b144fb28a0123764a889ac6d095831f}{%
+           family={Vorbrodt},
+           familyi={V\bibinitperiod},
+           given={Hans-Matthias},
+           giveni={H\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d12003bb464fd1f4e0708818360a70c3}
+      \strng{fullhash}{b709ca7d6a83b145505eb5b04cd1ae99}
+      \strng{bibnamehash}{b709ca7d6a83b145505eb5b04cd1ae99}
+      \strng{authorbibnamehash}{b709ca7d6a83b145505eb5b04cd1ae99}
+      \strng{authornamehash}{d12003bb464fd1f4e0708818360a70c3}
+      \strng{authorfullhash}{b709ca7d6a83b145505eb5b04cd1ae99}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering and Processing: Process Intensification}
+      \field{title}{Novel continuous catalytic hydrogenation process for the synthesis of diacetone-D-allose}
+      \field{volume}{113}
+      \field{year}{2017}
+      \field{pages}{2\bibrangedash 13}
+      \range{pages}{12}
+    \endentry
+    \entry{Erdim2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c4816322c502d2705bea98e1c006ee16}{%
+           family={Erdim},
+           familyi={E\bibinitperiod},
+           given={Esra},
+           giveni={E\bibinitperiod}}}%
+        {{hash=57cf295db8f392ee2174e4c0411ff00b}{%
+           family={Akgiray},
+           familyi={A\bibinitperiod},
+           given={{Ö}mer},
+           giveni={Ö\bibinitperiod}}}%
+        {{hash=de58188ebafd4eb9348a8013dd778f5f}{%
+           family={Demir},
+           familyi={D\bibinitperiod},
+           given={{İ}brahim},
+           giveni={İ\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6dafe29586c6356531acbeb789893f93}
+      \strng{fullhash}{a3f1c8dca9377dbdc2a901f88cf1bd92}
+      \strng{bibnamehash}{a3f1c8dca9377dbdc2a901f88cf1bd92}
+      \strng{authorbibnamehash}{a3f1c8dca9377dbdc2a901f88cf1bd92}
+      \strng{authornamehash}{6dafe29586c6356531acbeb789893f93}
+      \strng{authorfullhash}{a3f1c8dca9377dbdc2a901f88cf1bd92}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Powder Technology}
+      \field{title}{A revisit of pressure drop-flow rate correlations for packed beds of spheres}
+      \field{volume}{283}
+      \field{year}{2015}
+      \field{pages}{488\bibrangedash 504}
+      \range{pages}{17}
+    \endentry
+    \entry{Fernengel2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=42abe50f0ddbf5e76ff2f51d7164bcaa}{%
+           family={Fernengel},
+           familyi={F\bibinitperiod},
+           given={Johanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4763bb7aa2f1c90bade59aeacc828be}{%
+           family={Bolton},
+           familyi={B\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9a1e96a2f595f8fe0162c2b093b94b26}{%
+           family={Hinrichsen},
+           familyi={H\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7c9b2289f19826289215d80bc92e5bf9}
+      \strng{fullhash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \strng{bibnamehash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \strng{authorbibnamehash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \strng{authornamehash}{7c9b2289f19826289215d80bc92e5bf9}
+      \strng{authorfullhash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Journal}
+      \field{title}{Characterisation and design of single pellet string reactors using numerical simulation}
+      \field{volume}{373}
+      \field{year}{2019}
+      \field{pages}{1397\bibrangedash 1408}
+      \range{pages}{12}
+    \endentry
+    \entry{Al-Dahhan1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9cdfbbd45a14d830160f6da34df55c25}{%
+           family={Al-Dahhan},
+           familyi={A\bibinithyphendelim D\bibinitperiod},
+           given={Muthanna\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=83ae978f2d8211b97335b5e037ebb099}{%
+           family={Dudukovic},
+           familyi={D\bibinitperiod},
+           given={Milorad\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{d8e1346c8ef668e8d33aeb9fd113e2e9}
+      \strng{fullhash}{d8e1346c8ef668e8d33aeb9fd113e2e9}
+      \strng{bibnamehash}{d8e1346c8ef668e8d33aeb9fd113e2e9}
+      \strng{authorbibnamehash}{d8e1346c8ef668e8d33aeb9fd113e2e9}
+      \strng{authornamehash}{d8e1346c8ef668e8d33aeb9fd113e2e9}
+      \strng{authorfullhash}{d8e1346c8ef668e8d33aeb9fd113e2e9}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Science}
+      \field{number}{24}
+      \field{title}{Pressure drop and liquid holdup in high pressure trickle-bed reactors}
+      \field{volume}{49}
+      \field{year}{1994}
+      \field{pages}{5681\bibrangedash 5698}
+      \range{pages}{18}
+    \endentry
+    \entry{Al-Dahhan1995a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9cdfbbd45a14d830160f6da34df55c25}{%
+           family={Al-Dahhan},
+           familyi={A\bibinithyphendelim D\bibinitperiod},
+           given={Muthanna\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Effects of high pressure}%
+        {fines on the hydrodynamics of trickle-bed reactors.}%
+      }
+      \strng{namehash}{9cdfbbd45a14d830160f6da34df55c25}
+      \strng{fullhash}{9cdfbbd45a14d830160f6da34df55c25}
+      \strng{bibnamehash}{9cdfbbd45a14d830160f6da34df55c25}
+      \strng{authorbibnamehash}{9cdfbbd45a14d830160f6da34df55c25}
+      \strng{authornamehash}{9cdfbbd45a14d830160f6da34df55c25}
+      \strng{authorfullhash}{9cdfbbd45a14d830160f6da34df55c25}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Effects of high pressure and fines on the hydrodynamics of trickle-bed reactors.}
+      \field{year}{1995}
+    \endentry
+    \entry{Wammes1991}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6209ac2d203eaf344ca9e206f3349cda}{%
+           family={Wammes},
+           familyi={W\bibinitperiod},
+           given={WJA},
+           giveni={W\bibinitperiod}}}%
+        {{hash=48c19fe487979be996f43ce53b9fd5dc}{%
+           family={Mechielsen},
+           familyi={M\bibinitperiod},
+           given={SJ},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ec5adec9eb4ce94482ef505e9dbfaba5}{%
+           family={Westerterp},
+           familyi={W\bibinitperiod},
+           given={KR},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bc79e32c3ff50d911751e960bba61ee3}
+      \strng{fullhash}{b718e8df62992f3da6b96c9845cf085b}
+      \strng{bibnamehash}{b718e8df62992f3da6b96c9845cf085b}
+      \strng{authorbibnamehash}{b718e8df62992f3da6b96c9845cf085b}
+      \strng{authornamehash}{bc79e32c3ff50d911751e960bba61ee3}
+      \strng{authorfullhash}{b718e8df62992f3da6b96c9845cf085b}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical engineering science}
+      \field{number}{2}
+      \field{title}{The influence of pressure on the liquid hold-up in a cocurrent gas-liquid trickle-bed reactor operating at low gas velocities}
+      \field{volume}{46}
+      \field{year}{1991}
+      \field{pages}{409\bibrangedash 417}
+      \range{pages}{9}
+    \endentry
+    \entry{Holub1992}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a86f4ac271ec201208be581f224c7aef}{%
+           family={Holub},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a86f4ac271ec201208be581f224c7aef}
+      \strng{fullhash}{a86f4ac271ec201208be581f224c7aef}
+      \strng{bibnamehash}{a86f4ac271ec201208be581f224c7aef}
+      \strng{authorbibnamehash}{a86f4ac271ec201208be581f224c7aef}
+      \strng{authornamehash}{a86f4ac271ec201208be581f224c7aef}
+      \strng{authorfullhash}{a86f4ac271ec201208be581f224c7aef}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hydrodynamics of trickle bed reactors.}
+      \field{year}{1992}
+    \endentry
+    \entry{Ergun1952}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c67a390222c8171c6c1656889462c159}{%
+           family={Ergun},
+           familyi={E\bibinitperiod},
+           given={Sabri},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67a390222c8171c6c1656889462c159}
+      \strng{fullhash}{c67a390222c8171c6c1656889462c159}
+      \strng{bibnamehash}{c67a390222c8171c6c1656889462c159}
+      \strng{authorbibnamehash}{c67a390222c8171c6c1656889462c159}
+      \strng{authornamehash}{c67a390222c8171c6c1656889462c159}
+      \strng{authorfullhash}{c67a390222c8171c6c1656889462c159}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Progress}
+      \field{title}{Fluid flow through packed columns}
+      \field{volume}{48}
+      \field{year}{1952}
+      \field{pages}{89\bibrangedash 94}
+      \range{pages}{6}
+    \endentry
+    \entry{Blake1922}{article}{}
+      \name{author}{1}{}{%
+        {{hash=09abd2496ac560df6d570653ecb6e0d7}{%
+           family={Blake},
+           familyi={B\bibinitperiod},
+           given={FC},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{09abd2496ac560df6d570653ecb6e0d7}
+      \strng{fullhash}{09abd2496ac560df6d570653ecb6e0d7}
+      \strng{bibnamehash}{09abd2496ac560df6d570653ecb6e0d7}
+      \strng{authorbibnamehash}{09abd2496ac560df6d570653ecb6e0d7}
+      \strng{authornamehash}{09abd2496ac560df6d570653ecb6e0d7}
+      \strng{authorfullhash}{09abd2496ac560df6d570653ecb6e0d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the American Institute of Chemical Engineers}
+      \field{number}{415-421}
+      \field{title}{The resistance of packing to fluid flow}
+      \field{volume}{14}
+      \field{year}{1922}
+      \field{pages}{3}
+      \range{pages}{1}
+    \endentry
+    \entry{Kozeny1927a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=47393ddb171db41d41b8d37cbfd25926}{%
+           family={Kozeny},
+           familyi={K\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{fullhash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{bibnamehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{authorbibnamehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{authornamehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{authorfullhash}{47393ddb171db41d41b8d37cbfd25926}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Akademie Wissenschaften Wien}
+      \field{title}{Sitzungsber}
+      \field{volume}{136}
+      \field{year}{1927}
+      \field{pages}{271}
+      \range{pages}{1}
+    \endentry
+    \entry{Fernengel2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=42abe50f0ddbf5e76ff2f51d7164bcaa}{%
+           family={Fernengel},
+           familyi={F\bibinitperiod},
+           given={Johanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4763bb7aa2f1c90bade59aeacc828be}{%
+           family={Bolton},
+           familyi={B\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9a1e96a2f595f8fe0162c2b093b94b26}{%
+           family={Hinrichsen},
+           familyi={H\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7c9b2289f19826289215d80bc92e5bf9}
+      \strng{fullhash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \strng{bibnamehash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \strng{authorbibnamehash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \strng{authornamehash}{7c9b2289f19826289215d80bc92e5bf9}
+      \strng{authorfullhash}{83e900c2aa49dc3fe3cd5921b14e2a14}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering \& Technology}
+      \field{number}{1}
+      \field{title}{Numerical investigation of pressure drop in single pellet string reactors}
+      \field{volume}{43}
+      \field{year}{2020}
+      \field{pages}{172\bibrangedash 178}
+      \range{pages}{7}
+    \endentry
+    \entry{Mehta1969}{article}{}
+      \name{author}{2}{}{%
+        {{hash=78bfcd2576ff158a3cf44a2f752fb18d}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Devendra},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5e597c52bf212a2d826bc63edb71a668}{%
+           family={Hawley},
+           familyi={H\bibinitperiod},
+           given={MC},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{028cca1fd5cb3f6f81c894d7a1394cdf}
+      \strng{fullhash}{028cca1fd5cb3f6f81c894d7a1394cdf}
+      \strng{bibnamehash}{028cca1fd5cb3f6f81c894d7a1394cdf}
+      \strng{authorbibnamehash}{028cca1fd5cb3f6f81c894d7a1394cdf}
+      \strng{authornamehash}{028cca1fd5cb3f6f81c894d7a1394cdf}
+      \strng{authorfullhash}{028cca1fd5cb3f6f81c894d7a1394cdf}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Process Design and Development}
+      \field{number}{2}
+      \field{title}{Wall effect in packed columns}
+      \field{volume}{8}
+      \field{year}{1969}
+      \field{pages}{280\bibrangedash 282}
+      \range{pages}{3}
+    \endentry
+    \entry{Reichelt1972}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9618e143049169f2e19ff1fb2f57555e}{%
+           family={Reichelt},
+           familyi={R\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{9618e143049169f2e19ff1fb2f57555e}
+      \strng{fullhash}{9618e143049169f2e19ff1fb2f57555e}
+      \strng{bibnamehash}{9618e143049169f2e19ff1fb2f57555e}
+      \strng{authorbibnamehash}{9618e143049169f2e19ff1fb2f57555e}
+      \strng{authornamehash}{9618e143049169f2e19ff1fb2f57555e}
+      \strng{authorfullhash}{9618e143049169f2e19ff1fb2f57555e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemie Ingenieur Technik}
+      \field{number}{18}
+      \field{title}{Zur Berechnung des Druckverlustes einphasig durchstr{ö}mter Kugel-und Zylindersch{ü}ttungen}
+      \field{volume}{44}
+      \field{year}{1972}
+      \field{pages}{1068\bibrangedash 1071}
+      \range{pages}{4}
+    \endentry
+    \entry{Eisfeld2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=158496b0109dde53eb3d088a182828e3}{%
+           family={Eisfeld},
+           familyi={E\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3397a13e8a6db369aee85e76c46a0b82}{%
+           family={Schnitzlein},
+           familyi={S\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0732e2902264fa19f87359f5cfdc3bbd}
+      \strng{fullhash}{0732e2902264fa19f87359f5cfdc3bbd}
+      \strng{bibnamehash}{0732e2902264fa19f87359f5cfdc3bbd}
+      \strng{authorbibnamehash}{0732e2902264fa19f87359f5cfdc3bbd}
+      \strng{authornamehash}{0732e2902264fa19f87359f5cfdc3bbd}
+      \strng{authorfullhash}{0732e2902264fa19f87359f5cfdc3bbd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Science}
+      \field{number}{14}
+      \field{title}{The influence of confining walls on the pressure drop in packed beds}
+      \field{volume}{56}
+      \field{year}{2001}
+      \field{pages}{4321\bibrangedash 4329}
+      \range{pages}{9}
+    \endentry
+    \entry{Fand1993}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=1d226714db0d294b34b8b0ace0b9adf3}{%
+           family={Fand},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b51375b5cbff57a21da4078d1f7b225b}{%
+           family={Sundaram},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=51f479524f14ae86273d32b5100f2860}{%
+           family={Varahasamy},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4356a9621bfc341f5f355f8dfa33c38}
+      \strng{fullhash}{700b2512ec931f401afd7cabae9a58d0}
+      \strng{bibnamehash}{700b2512ec931f401afd7cabae9a58d0}
+      \strng{authorbibnamehash}{700b2512ec931f401afd7cabae9a58d0}
+      \strng{authornamehash}{f4356a9621bfc341f5f355f8dfa33c38}
+      \strng{authorfullhash}{700b2512ec931f401afd7cabae9a58d0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Incompressible fluid flow through pipes packed with spheres at low dimension ratios}
+      \field{year}{1993}
+    \endentry
+    \entry{Guo2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a9d45d75eb8ee6b6e5e9533205920a2c}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zehua},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=85fbd0fc01d7c8fb16edb030845e5f7a}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Zhongning},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=50541ce48b62a59478859829bdda8bad}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=46a3f0b5c048254bc7f6910cd7e8cd63}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c3246bff6b90a24c72726f3e26490ec}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Jiming},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bc186ec30c15fb5cccf03710e95b2e35}
+      \strng{fullhash}{32f06c59e2b90f4130be6bd0b3d56ede}
+      \strng{bibnamehash}{32f06c59e2b90f4130be6bd0b3d56ede}
+      \strng{authorbibnamehash}{32f06c59e2b90f4130be6bd0b3d56ede}
+      \strng{authornamehash}{bc186ec30c15fb5cccf03710e95b2e35}
+      \strng{authorfullhash}{32f06c59e2b90f4130be6bd0b3d56ede}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Science}
+      \field{title}{Experimental characterization of pressure drop in slender packed bed (1< D/d< 3)}
+      \field{volume}{173}
+      \field{year}{2017}
+      \field{pages}{578\bibrangedash 587}
+      \range{pages}{10}
+    \endentry
+    \entry{Heinemann1994}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5eb72764e046d03528d84b6ca896cc74}{%
+           family={Heinemann},
+           familyi={H\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5eb72764e046d03528d84b6ca896cc74}
+      \strng{fullhash}{5eb72764e046d03528d84b6ca896cc74}
+      \strng{bibnamehash}{5eb72764e046d03528d84b6ca896cc74}
+      \strng{authorbibnamehash}{5eb72764e046d03528d84b6ca896cc74}
+      \strng{authornamehash}{5eb72764e046d03528d84b6ca896cc74}
+      \strng{authorfullhash}{5eb72764e046d03528d84b6ca896cc74}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Catalysis Today}
+      \field{number}{2}
+      \field{title}{Catalyst Performance Testing}
+      \field{volume}{22}
+      \field{year}{1994}
+      \field{pages}{281\bibrangedash 293}
+      \range{pages}{13}
+    \endentry
+    \entry{Sie1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ec603fa6f04ac5fe73c4d4007bab0a17}{%
+           family={Sie},
+           familyi={S\bibinitperiod},
+           given={ST},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{ec603fa6f04ac5fe73c4d4007bab0a17}
+      \strng{fullhash}{ec603fa6f04ac5fe73c4d4007bab0a17}
+      \strng{bibnamehash}{ec603fa6f04ac5fe73c4d4007bab0a17}
+      \strng{authorbibnamehash}{ec603fa6f04ac5fe73c4d4007bab0a17}
+      \strng{authornamehash}{ec603fa6f04ac5fe73c4d4007bab0a17}
+      \strng{authorfullhash}{ec603fa6f04ac5fe73c4d4007bab0a17}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIChE Journal}
+      \field{number}{12}
+      \field{title}{Miniaturization of hydroprocessing catalyst testing systems: Theory and practice}
+      \field{volume}{42}
+      \field{year}{1996}
+      \field{pages}{3498\bibrangedash 3507}
+      \range{pages}{10}
+    \endentry
+    \entry{San1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a89cc507d1f4682d9f1de97248bb5f00}{%
+           family={San},
+           familyi={S\bibinitperiod},
+           given={Hasan\bibnamedelima Ali},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a89cc507d1f4682d9f1de97248bb5f00}
+      \strng{fullhash}{a89cc507d1f4682d9f1de97248bb5f00}
+      \strng{bibnamehash}{a89cc507d1f4682d9f1de97248bb5f00}
+      \strng{authorbibnamehash}{a89cc507d1f4682d9f1de97248bb5f00}
+      \strng{authornamehash}{a89cc507d1f4682d9f1de97248bb5f00}
+      \strng{authorfullhash}{a89cc507d1f4682d9f1de97248bb5f00}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Water Research}
+      \field{number}{5}
+      \field{title}{A kinetic model for ideal plug-flow reactors}
+      \field{volume}{23}
+      \field{year}{1989}
+      \field{pages}{647\bibrangedash 654}
+      \range{pages}{8}
+    \endentry
+    \entry{Gierman1988}{article}{}
+      \name{author}{1}{}{%
+        {{hash=88537611051e4cf3a8cfc0ca2b965281}{%
+           family={Gierman},
+           familyi={G\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{88537611051e4cf3a8cfc0ca2b965281}
+      \strng{fullhash}{88537611051e4cf3a8cfc0ca2b965281}
+      \strng{bibnamehash}{88537611051e4cf3a8cfc0ca2b965281}
+      \strng{authorbibnamehash}{88537611051e4cf3a8cfc0ca2b965281}
+      \strng{authornamehash}{88537611051e4cf3a8cfc0ca2b965281}
+      \strng{authorfullhash}{88537611051e4cf3a8cfc0ca2b965281}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Catalysis}
+      \field{number}{2}
+      \field{title}{Design of laboratory hydrotreating reactors: scaling down of trickle-flow reactors}
+      \field{volume}{43}
+      \field{year}{1988}
+      \field{pages}{277\bibrangedash 286}
+      \range{pages}{10}
+    \endentry
+    \entry{Blocken2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8039a529411ddf9eb422b069c639efa8}{%
+           family={Blocken},
+           familyi={B\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8039a529411ddf9eb422b069c639efa8}
+      \strng{fullhash}{8039a529411ddf9eb422b069c639efa8}
+      \strng{bibnamehash}{8039a529411ddf9eb422b069c639efa8}
+      \strng{authorbibnamehash}{8039a529411ddf9eb422b069c639efa8}
+      \strng{authornamehash}{8039a529411ddf9eb422b069c639efa8}
+      \strng{authorfullhash}{8039a529411ddf9eb422b069c639efa8}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Catholic University of Leuven (Belgium)}
+      \field{title}{Wind-driven rain on buildings: measurements, numerical modelling and applications}
+      \field{year}{2004}
+    \endentry
+    \entry{Chen2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=912ac8b5b355b9334928db94e0f2e507}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Goong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4d8659d6371bb647298a06dcefa8ce44}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Qingang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=358799226029e51a50630e1a72c453e0}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=baa571840833879b310e5efbfc86c500}{%
+           family={Paterson},
+           familyi={P\bibinitperiod},
+           given={Eric\bibnamedelima G},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ef9cf565784dbafc5de228b698e298c3}{%
+           family={Sergeev},
+           familyi={S\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a70ecb8e21d62a6c0b6151ae105e5ba}
+      \strng{fullhash}{c3197b6d7da6e36aa779f136b45768c7}
+      \strng{bibnamehash}{c3197b6d7da6e36aa779f136b45768c7}
+      \strng{authorbibnamehash}{c3197b6d7da6e36aa779f136b45768c7}
+      \strng{authornamehash}{4a70ecb8e21d62a6c0b6151ae105e5ba}
+      \strng{authorfullhash}{c3197b6d7da6e36aa779f136b45768c7}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Notices of the AMS}
+      \field{number}{4}
+      \field{title}{OpenFOAM for computational fluid dynamics}
+      \field{volume}{61}
+      \field{year}{2014}
+      \field{pages}{354\bibrangedash 363}
+      \range{pages}{10}
+    \endentry
+    \entry{Alfonsi2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a3622e9dd8d2f3dc2eea4dc157015a1a}{%
+           family={Alfonsi},
+           familyi={A\bibinitperiod},
+           given={Giancarlo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Mechanical Engineers Digital Collection}%
+      }
+      \strng{namehash}{a3622e9dd8d2f3dc2eea4dc157015a1a}
+      \strng{fullhash}{a3622e9dd8d2f3dc2eea4dc157015a1a}
+      \strng{bibnamehash}{a3622e9dd8d2f3dc2eea4dc157015a1a}
+      \strng{authorbibnamehash}{a3622e9dd8d2f3dc2eea4dc157015a1a}
+      \strng{authornamehash}{a3622e9dd8d2f3dc2eea4dc157015a1a}
+      \strng{authorfullhash}{a3622e9dd8d2f3dc2eea4dc157015a1a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Mechanics Reviews}
+      \field{number}{4}
+      \field{title}{Reynolds-averaged Navier--Stokes equations for turbulence modeling}
+      \field{volume}{62}
+      \field{year}{2009}
+    \endentry
+    \entry{Pisarenco2011}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9a8b6e0bf4b128704f2301cbd1112fef}{%
+           family={Pisarenco},
+           familyi={P\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49b9d4e35734f4a08e4f3fc3baf5d3c3}{%
+           family={Linden},
+           familyi={L\bibinitperiod},
+           given={Bas},
+           giveni={B\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=8cf313a76770704cdbfbd31056e5608c}{%
+           family={Tijsseling},
+           familyi={T\bibinitperiod},
+           given={Arris},
+           giveni={A\bibinitperiod}}}%
+        {{hash=049ab692476f5c0f60c60bf46a25a935}{%
+           family={Ory},
+           familyi={O\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=376136780a7263da78fcaa2c49b80252}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Mechanical Engineers Digital Collection}%
+      }
+      \strng{namehash}{244d1222e7b4eeb3f40a2f5e885dabd1}
+      \strng{fullhash}{8f3abdb3941c967ac7fc4484c9a1d2fc}
+      \strng{bibnamehash}{8f3abdb3941c967ac7fc4484c9a1d2fc}
+      \strng{authorbibnamehash}{8f3abdb3941c967ac7fc4484c9a1d2fc}
+      \strng{authornamehash}{244d1222e7b4eeb3f40a2f5e885dabd1}
+      \strng{authorfullhash}{8f3abdb3941c967ac7fc4484c9a1d2fc}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Offshore Mechanics and Arctic Engineering}
+      \field{number}{1}
+      \field{title}{Friction factor estimation for turbulent flows in corrugated pipes with rough walls}
+      \field{volume}{133}
+      \field{year}{2011}
+    \endentry
+    \entry{Tennekes1972}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=6e7a118e284ebd66fbabc0c8f4bec594}{%
+           family={Tennekes},
+           familyi={T\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a7565a074e9792cb645d3abfeccf7159}{%
+           family={Lumley},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima Leask},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a1222ca46d6a2c454e309a21b9c7373b}{%
+           family={Lumley},
+           familyi={L\bibinitperiod},
+           given={Jonh\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{ebf49e7c70209a9a609daa8b13b19450}
+      \strng{fullhash}{38236313b666dd984a315fef2364d587}
+      \strng{bibnamehash}{38236313b666dd984a315fef2364d587}
+      \strng{authorbibnamehash}{38236313b666dd984a315fef2364d587}
+      \strng{authornamehash}{ebf49e7c70209a9a609daa8b13b19450}
+      \strng{authorfullhash}{38236313b666dd984a315fef2364d587}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A first course in turbulence}
+      \field{year}{1972}
+    \endentry
+    \entry{Hinze1975}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=987bf442db991199132058af05a4f552}{%
+           family={Hinze},
+           familyi={H\bibinitperiod},
+           given={JO},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York}%
+      }
+      \strng{namehash}{987bf442db991199132058af05a4f552}
+      \strng{fullhash}{987bf442db991199132058af05a4f552}
+      \strng{bibnamehash}{987bf442db991199132058af05a4f552}
+      \strng{authorbibnamehash}{987bf442db991199132058af05a4f552}
+      \strng{authornamehash}{987bf442db991199132058af05a4f552}
+      \strng{authorfullhash}{987bf442db991199132058af05a4f552}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Turbulence. McGraw-Hill Publishing Co}
+      \field{year}{1975}
+    \endentry
+    \entry{Wilcox1993a}{report}{}
+      \name{author}{1}{}{%
+        {{hash=69af6557a317d5f2fefaf3960a35280a}{%
+           family={Wilcox},
+           familyi={W\bibinitperiod},
+           given={DC},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IBSN 0-9636051-0-0, DCW Industries Inc., La Canada, California}%
+      }
+      \strng{namehash}{69af6557a317d5f2fefaf3960a35280a}
+      \strng{fullhash}{69af6557a317d5f2fefaf3960a35280a}
+      \strng{bibnamehash}{69af6557a317d5f2fefaf3960a35280a}
+      \strng{authorbibnamehash}{69af6557a317d5f2fefaf3960a35280a}
+      \strng{authornamehash}{69af6557a317d5f2fefaf3960a35280a}
+      \strng{authorfullhash}{69af6557a317d5f2fefaf3960a35280a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Turbulence modelling for CFD.}
+      \field{type}{techreport}
+      \field{year}{1993}
+    \endentry
+    \entry{Menter1993}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=628620d3cc0f73ed375cafcd2c6fac8e}{%
+           family={Menter},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{628620d3cc0f73ed375cafcd2c6fac8e}
+      \strng{fullhash}{628620d3cc0f73ed375cafcd2c6fac8e}
+      \strng{bibnamehash}{628620d3cc0f73ed375cafcd2c6fac8e}
+      \strng{authorbibnamehash}{628620d3cc0f73ed375cafcd2c6fac8e}
+      \strng{authornamehash}{628620d3cc0f73ed375cafcd2c6fac8e}
+      \strng{authorfullhash}{628620d3cc0f73ed375cafcd2c6fac8e}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{23rd Fluid Dynamics, Plasmadynamics, and Lasers Conference}
+      \field{title}{Zonal two equation kw turbulence models for aerodynamic flows}
+      \field{year}{1993}
+      \field{pages}{2906}
+      \range{pages}{1}
+    \endentry
+    \entry{Menter1994}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2143101ca93c44d83ed2e5ca610e99ad}{%
+           family={Menter},
+           familyi={M\bibinitperiod},
+           given={Florian\bibnamedelima R},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2143101ca93c44d83ed2e5ca610e99ad}
+      \strng{fullhash}{2143101ca93c44d83ed2e5ca610e99ad}
+      \strng{bibnamehash}{2143101ca93c44d83ed2e5ca610e99ad}
+      \strng{authorbibnamehash}{2143101ca93c44d83ed2e5ca610e99ad}
+      \strng{authornamehash}{2143101ca93c44d83ed2e5ca610e99ad}
+      \strng{authorfullhash}{2143101ca93c44d83ed2e5ca610e99ad}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIAA Journal}
+      \field{number}{8}
+      \field{title}{Two-equation eddy-viscosity turbulence models for engineering applications}
+      \field{volume}{32}
+      \field{year}{1994}
+      \field{pages}{1598\bibrangedash 1605}
+      \range{pages}{8}
+    \endentry
+    \entry{Rodi1991}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=ba26603cd820a9e6fdc2bec3e8b08ce9}{%
+           family={Rodi},
+           familyi={R\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba26603cd820a9e6fdc2bec3e8b08ce9}
+      \strng{fullhash}{ba26603cd820a9e6fdc2bec3e8b08ce9}
+      \strng{bibnamehash}{ba26603cd820a9e6fdc2bec3e8b08ce9}
+      \strng{authorbibnamehash}{ba26603cd820a9e6fdc2bec3e8b08ce9}
+      \strng{authornamehash}{ba26603cd820a9e6fdc2bec3e8b08ce9}
+      \strng{authorfullhash}{ba26603cd820a9e6fdc2bec3e8b08ce9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{29th Aerospace sciences meeting}
+      \field{title}{Experience with two-layer models combining the k-epsilon model with a one-equation model near the wall}
+      \field{year}{1991}
+      \field{pages}{216}
+      \range{pages}{1}
+    \endentry
+    \entry{Chen1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7c35da2994c8e642f8afbc974247c2a2}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={CJ},
+           giveni={C\bibinitperiod}}}%
+        {{hash=83ae7fab96b5f1c5e9755f1e375dd7e1}{%
+           family={Jaw},
+           familyi={J\bibinitperiod},
+           given={SY},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{33bfc5b9a1d4c560e54e27c8053b2413}
+      \strng{fullhash}{33bfc5b9a1d4c560e54e27c8053b2413}
+      \strng{bibnamehash}{33bfc5b9a1d4c560e54e27c8053b2413}
+      \strng{authorbibnamehash}{33bfc5b9a1d4c560e54e27c8053b2413}
+      \strng{authornamehash}{33bfc5b9a1d4c560e54e27c8053b2413}
+      \strng{authorfullhash}{33bfc5b9a1d4c560e54e27c8053b2413}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Washington, DC}
+      \field{title}{‘Fundamentals of Turbulence Modeling. Taylor and Francis}
+      \field{year}{1998}
+    \endentry
+    \entry{Schlichting1960}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a40b2ac2ea6bf0e4fe92d78ea78c1553}{%
+           family={Schlichting},
+           familyi={S\bibinitperiod},
+           given={Hermann},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a40b2ac2ea6bf0e4fe92d78ea78c1553}
+      \strng{fullhash}{a40b2ac2ea6bf0e4fe92d78ea78c1553}
+      \strng{bibnamehash}{a40b2ac2ea6bf0e4fe92d78ea78c1553}
+      \strng{authorbibnamehash}{a40b2ac2ea6bf0e4fe92d78ea78c1553}
+      \strng{authornamehash}{a40b2ac2ea6bf0e4fe92d78ea78c1553}
+      \strng{authorfullhash}{a40b2ac2ea6bf0e4fe92d78ea78c1553}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Boundary layer theory}
+      \field{volume}{960}
+      \field{year}{1960}
+    \endentry
+    \entry{White2006}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1e681d94d9c783f7ceb9dd9e89c5c572}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Frank\bibnamedelima M},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f84b2d1e9902602c03aec85c7d403b61}{%
+           family={Corfield},
+           familyi={C\bibinitperiod},
+           given={Isla},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill New York}%
+      }
+      \strng{namehash}{283f0fb958d44718d44fa1911327fba7}
+      \strng{fullhash}{283f0fb958d44718d44fa1911327fba7}
+      \strng{bibnamehash}{283f0fb958d44718d44fa1911327fba7}
+      \strng{authorbibnamehash}{283f0fb958d44718d44fa1911327fba7}
+      \strng{authornamehash}{283f0fb958d44718d44fa1911327fba7}
+      \strng{authorfullhash}{283f0fb958d44718d44fa1911327fba7}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Viscous fluid flow}
+      \field{volume}{3}
+      \field{year}{2006}
+    \endentry
+    \entry{Blocken2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dbff8dd34e5be7281f6c980c563ce23a}{%
+           family={Blocken},
+           familyi={B\bibinitperiod},
+           given={Bert},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6f3d166fc212ece3cc944872f0c5ebab}{%
+           family={Stathopoulos},
+           familyi={S\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod}}}%
+        {{hash=add39d2a86ba5fda65708e8c294ac4e2}{%
+           family={Carmeliet},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{96305f2124d3c6d314b1608b6c4c448f}
+      \strng{fullhash}{7a3334b0b1640f737c21eee30c3e23ea}
+      \strng{bibnamehash}{7a3334b0b1640f737c21eee30c3e23ea}
+      \strng{authorbibnamehash}{7a3334b0b1640f737c21eee30c3e23ea}
+      \strng{authornamehash}{96305f2124d3c6d314b1608b6c4c448f}
+      \strng{authorfullhash}{7a3334b0b1640f737c21eee30c3e23ea}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{number}{2}
+      \field{title}{CFD simulation of the atmospheric boundary layer: wall function problems}
+      \field{volume}{41}
+      \field{year}{2007}
+      \field{pages}{238\bibrangedash 252}
+      \range{pages}{15}
+    \endentry
+    \entry{Nezu2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6341435753aa54bf43ff1ec1fc254b5c}{%
+           family={Nezu},
+           familyi={N\bibinitperiod},
+           given={Iehisa},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ac17a49e0d01837bc0da007b3639e3a3}{%
+           family={Tominaga},
+           familyi={T\bibinitperiod},
+           given={Akihiro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecb507bc7a9cc40ef054b2051734be11}
+      \strng{fullhash}{ecb507bc7a9cc40ef054b2051734be11}
+      \strng{bibnamehash}{ecb507bc7a9cc40ef054b2051734be11}
+      \strng{authorbibnamehash}{ecb507bc7a9cc40ef054b2051734be11}
+      \strng{authornamehash}{ecb507bc7a9cc40ef054b2051734be11}
+      \strng{authorfullhash}{ecb507bc7a9cc40ef054b2051734be11}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asakura Shoten}
+      \field{title}{Suirigaku}
+      \field{year}{2000}
+      \field{pages}{130\bibrangedash 133}
+      \range{pages}{4}
+    \endentry
+    \entry{Salim2009}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=edd022c68c9371639fb69f3c2372de21}{%
+           family={Salim},
+           familyi={S\bibinitperiod},
+           given={Salim\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=901334cda8ca53cc9074bf0b00cb2846}{%
+           family={Cheah},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Hong Kong}%
+      }
+      \strng{namehash}{56d004084e714bf42d1022be68104160}
+      \strng{fullhash}{56d004084e714bf42d1022be68104160}
+      \strng{bibnamehash}{56d004084e714bf42d1022be68104160}
+      \strng{authorbibnamehash}{56d004084e714bf42d1022be68104160}
+      \strng{authornamehash}{56d004084e714bf42d1022be68104160}
+      \strng{authorfullhash}{56d004084e714bf42d1022be68104160}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the international multiconference of engineers and computer scientists}
+      \field{title}{Wall Y strategy for dealing with wall-bounded turbulent flows}
+      \field{volume}{2}
+      \field{year}{2009}
+      \field{pages}{2165\bibrangedash 2170}
+      \range{pages}{6}
+    \endentry
+    \entry{Liu2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f211da191adb303fa666765dba597bb2}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fangqing},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f211da191adb303fa666765dba597bb2}
+      \strng{fullhash}{f211da191adb303fa666765dba597bb2}
+      \strng{bibnamehash}{f211da191adb303fa666765dba597bb2}
+      \strng{authorbibnamehash}{f211da191adb303fa666765dba597bb2}
+      \strng{authornamehash}{f211da191adb303fa666765dba597bb2}
+      \strng{authorfullhash}{f211da191adb303fa666765dba597bb2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of CFD with OpenSource Software}
+      \field{title}{A thorough description of how wall functions are implemented in OpenFOAM}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+    \endentry
+    \entry{Tabor1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cbbf3e47bd0146b2d54de771f3f8d253}{%
+           family={Tabor},
+           familyi={T\bibinitperiod},
+           given={HGWaG},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5c9658cf1742f2378da89429cdda0d55}{%
+           family={Jasak},
+           familyi={J\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8457ba3035634ec183a82e8748bd79d3}{%
+           family={Fureby},
+           familyi={F\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d525a68c5544aae2d9ed6e614d99fea}
+      \strng{fullhash}{079e0412b9a373bdb9f4a63119bce30a}
+      \strng{bibnamehash}{079e0412b9a373bdb9f4a63119bce30a}
+      \strng{authorbibnamehash}{079e0412b9a373bdb9f4a63119bce30a}
+      \strng{authornamehash}{9d525a68c5544aae2d9ed6e614d99fea}
+      \strng{authorfullhash}{079e0412b9a373bdb9f4a63119bce30a}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Physics}
+      \field{title}{A tensorial approach to computational continuum mechanics using object-oriented techniques}
+      \field{volume}{6}
+      \field{year}{1998}
+    \endentry
+    \entry{Blender2.76b}{misc}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{Blender Foundation, Blender 2.76b, software package (2015).}
+    \endentry
+    \entry{Coumans2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cb5d8e1abc8f025ae375181f1fa6aa94}{%
+           family={Coumans},
+           familyi={C\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb5d8e1abc8f025ae375181f1fa6aa94}
+      \strng{fullhash}{cb5d8e1abc8f025ae375181f1fa6aa94}
+      \strng{bibnamehash}{cb5d8e1abc8f025ae375181f1fa6aa94}
+      \strng{authorbibnamehash}{cb5d8e1abc8f025ae375181f1fa6aa94}
+      \strng{authornamehash}{cb5d8e1abc8f025ae375181f1fa6aa94}
+      \strng{authorfullhash}{cb5d8e1abc8f025ae375181f1fa6aa94}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{URL: http://www. cs. uu. nl/docs/vakken/mgp/assignment/Bullet}
+      \field{title}{Bullet 2.80 physics SDK manual}
+      \field{year}{2012}
+    \endentry
+    \entry{OpenFOAMUserGuideKOmegaSST}{misc}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{OpenFOAM: User Guide v1912: k-omega Shear Stress Transport (SST)}
+      \field{year}{2016-2017}
+      \verb{urlraw}
+      \verb https://www.openfoam.com/documentation/guides/latest/doc/guide-turbulence-ras-k-omega-sst.html
+      \endverb
+      \verb{url}
+      \verb https://www.openfoam.com/documentation/guides/latest/doc/guide-turbulence-ras-k-omega-sst.html
+      \endverb
+    \endentry
+    \entry{Kozeny1927}{article}{}
+      \name{author}{1}{}{%
+        {{hash=47393ddb171db41d41b8d37cbfd25926}{%
+           family={Kozeny},
+           familyi={K\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{fullhash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{bibnamehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{authorbibnamehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{authornamehash}{47393ddb171db41d41b8d37cbfd25926}
+      \strng{authorfullhash}{47393ddb171db41d41b8d37cbfd25926}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Royal Academy of Science, Vienna, Proc. Class I}
+      \field{title}{Uber kapillare leitung der wasser in boden}
+      \field{volume}{136}
+      \field{year}{1927}
+      \field{pages}{271\bibrangedash 306}
+      \range{pages}{36}
+    \endentry
+    \entry{Lee1984}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3cd89afeb3950a7f4814c83e5ac549f9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Min-Dar},
+           giveni={M\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=92d8c9faa59e592d5d0f8358fcb3a52e}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Shu-Hung},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=25969575bf90f16d88c0c2d27f50927b}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Tsung-Kou},
+           giveni={T\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=a6cf5aad905b749f59136c686ae98d1c}{%
+           family={Kuei},
+           familyi={K\bibinitperiod},
+           given={Chi-Kang},
+           giveni={C\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{cadac61e7b2c15a890f14f4f4eff6851}
+      \strng{fullhash}{8611b12eed8c64256bbc281645697666}
+      \strng{bibnamehash}{8611b12eed8c64256bbc281645697666}
+      \strng{authorbibnamehash}{8611b12eed8c64256bbc281645697666}
+      \strng{authornamehash}{cadac61e7b2c15a890f14f4f4eff6851}
+      \strng{authorfullhash}{8611b12eed8c64256bbc281645697666}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIChE Journal}
+      \field{number}{4}
+      \field{title}{Flow and dispersive behaviours of cylindrical pellet string reactor}
+      \field{volume}{30}
+      \field{year}{1984}
+      \field{pages}{639\bibrangedash 641}
+      \range{pages}{3}
+    \endentry
+    \entry{Montillet2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e19c45d5f6bef4b3ad998e5c2cb1be1a}{%
+           family={Montillet},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=29cfbcca31606ee1e11375f3037d4e87}{%
+           family={Akkari},
+           familyi={A\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5af2993ef778e831a8e5fc2df3b619b7}{%
+           family={Comiti},
+           familyi={C\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c0096c004dffa89629dcf3042b45fef0}
+      \strng{fullhash}{583b8cbf5b7a24713c018e5d09ae5bcc}
+      \strng{bibnamehash}{583b8cbf5b7a24713c018e5d09ae5bcc}
+      \strng{authorbibnamehash}{583b8cbf5b7a24713c018e5d09ae5bcc}
+      \strng{authornamehash}{c0096c004dffa89629dcf3042b45fef0}
+      \strng{authorfullhash}{583b8cbf5b7a24713c018e5d09ae5bcc}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering and Processing: Process Intensification}
+      \field{number}{4}
+      \field{title}{About a correlating equation for predicting pressure drops through packed beds of spheres in a large range of Reynolds numbers}
+      \field{volume}{46}
+      \field{year}{2007}
+      \field{pages}{329\bibrangedash 333}
+      \range{pages}{5}
+    \endentry
+    \entry{Mueller2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7adc992010f84609a311006546c23441}{%
+           family={M{ü}ller},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=65125b978c4811c8394b3bf27011954c}{%
+           family={Petschick},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e5275a8384955963065149792c424634}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{07fc02a38729490324ce499a160a9f20}
+      \strng{fullhash}{54768cd210a4da076c93824304ad07ba}
+      \strng{bibnamehash}{54768cd210a4da076c93824304ad07ba}
+      \strng{authorbibnamehash}{54768cd210a4da076c93824304ad07ba}
+      \strng{authornamehash}{07fc02a38729490324ce499a160a9f20}
+      \strng{authorfullhash}{54768cd210a4da076c93824304ad07ba}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Engineering}
+      \field{title}{Model-based investigation of a Pellet String Reactor}
+      \field{volume}{42}
+      \field{year}{2012}
+      \field{pages}{1189\bibrangedash 1201}
+      \range{pages}{13}
+    \endentry
+    \entry{Govindarao1992}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5c8506f396c85ff4ed306772483d02d5}{%
+           family={Govindarao},
+           familyi={G\bibinitperiod},
+           given={Venneti\bibnamedelima MH},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8c527f65004d82977f216858cff868cb}{%
+           family={Ramrao},
+           familyi={R\bibinitperiod},
+           given={Kandiraju\bibnamedelima VS},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=1d02fc9bb6ef59430500d5653359c8fa}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ammavajjala\bibnamedelima VS},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Science Ltd.}%
+      }
+      \strng{namehash}{fe72fbdf73dbadcbf32b13fb6f73de60}
+      \strng{fullhash}{e42342432546cb2eacff8c3a3fd5c36e}
+      \strng{bibnamehash}{e42342432546cb2eacff8c3a3fd5c36e}
+      \strng{authorbibnamehash}{e42342432546cb2eacff8c3a3fd5c36e}
+      \strng{authornamehash}{fe72fbdf73dbadcbf32b13fb6f73de60}
+      \strng{authorfullhash}{e42342432546cb2eacff8c3a3fd5c36e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Engineering Science}
+      \field{number}{8}
+      \field{title}{Structural characteristics of packed beds of low aspect ratio}
+      \field{volume}{47}
+      \field{year}{1992}
+      \field{pages}{2105\bibrangedash 2109}
+      \range{pages}{5}
+    \endentry
+    \entry{Jones1983}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=0cd9da76608692e1264afd3122cc788d}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=cbe7120cd560819fba9c38aabcb6e17d}{%
+           family={Krier},
+           familyi={K\bibinitperiod},
+           given={Herman},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0027bc16faba3fc77a71b019307cfbf}
+      \strng{fullhash}{d0027bc16faba3fc77a71b019307cfbf}
+      \strng{bibnamehash}{d0027bc16faba3fc77a71b019307cfbf}
+      \strng{authorbibnamehash}{d0027bc16faba3fc77a71b019307cfbf}
+      \strng{authornamehash}{d0027bc16faba3fc77a71b019307cfbf}
+      \strng{authorfullhash}{d0027bc16faba3fc77a71b019307cfbf}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gas flow resistance measurements through packed beds at high Reynolds numbers}
+      \field{year}{1983}
+    \endentry
+    \entry{Lee1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=adda4a49383b43354d06c6c6a671c306}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jun\bibnamedelima Sug},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=60b5def82bf031543f8db835aa05408d}{%
+           family={Ogawa},
+           familyi={O\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Society of Chemical Engineers, Japan}%
+      }
+      \strng{namehash}{52ad2a2527bcf141fbb8e73fa7c01cc1}
+      \strng{fullhash}{52ad2a2527bcf141fbb8e73fa7c01cc1}
+      \strng{bibnamehash}{52ad2a2527bcf141fbb8e73fa7c01cc1}
+      \strng{authorbibnamehash}{52ad2a2527bcf141fbb8e73fa7c01cc1}
+      \strng{authornamehash}{52ad2a2527bcf141fbb8e73fa7c01cc1}
+      \strng{authorfullhash}{52ad2a2527bcf141fbb8e73fa7c01cc1}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical Engineering of Japan}
+      \field{number}{5}
+      \field{title}{Pressure drop though packed bed}
+      \field{volume}{27}
+      \field{year}{1994}
+      \field{pages}{691\bibrangedash 693}
+      \range{pages}{3}
+    \endentry
+    \entry{Macdonald1979}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3f36f081b85869e7d83f0f8fdb8652ec}{%
+           family={Macdonald},
+           familyi={M\bibinitperiod},
+           given={IF},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b12097e512001e6c7041d650556613a0}{%
+           family={El-Sayed},
+           familyi={E\bibinithyphendelim S\bibinitperiod},
+           given={MS},
+           giveni={M\bibinitperiod}}}%
+        {{hash=013f68f4c6cd5f4a4a3b478c8e618912}{%
+           family={Mow},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6c79ee43677ebb85e9ac68ace4205ec6}{%
+           family={Dullien},
+           familyi={D\bibinitperiod},
+           given={FAL},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{0e4f5ff7e2a5bf123c41455fe585cac9}
+      \strng{fullhash}{ee32f964e5baacb7dca44182d83f0919}
+      \strng{bibnamehash}{ee32f964e5baacb7dca44182d83f0919}
+      \strng{authorbibnamehash}{ee32f964e5baacb7dca44182d83f0919}
+      \strng{authornamehash}{0e4f5ff7e2a5bf123c41455fe585cac9}
+      \strng{authorfullhash}{ee32f964e5baacb7dca44182d83f0919}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Fundamentals}
+      \field{number}{3}
+      \field{title}{Flow through porous media-the Ergun equation revisited}
+      \field{volume}{18}
+      \field{year}{1979}
+      \field{pages}{199\bibrangedash 208}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

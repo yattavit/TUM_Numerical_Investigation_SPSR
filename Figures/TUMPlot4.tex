@@ -1,0 +1,68 @@
+\begin{tikzpicture}
+
+\begin{axis}[
+    width=10cm,
+   height=4cm,
+   scale only axis,
+   xmin=0.8, xmax=3.2,
+   xtick={1,2,3},
+   xticklabels={Step1,Step2,Step3},
+   xmajorgrids,
+   ymin=0.7, ymax=1.1,
+   ylabel={$\xi$},
+   ymajorgrids,
+   title={Stroke Ratio Comparison},
+   axis lines*=left,
+%  line width=1.0pt,
+%  mark size=2.0pt,
+   legend style ={ at={(1.03,1)}, 
+        anchor=north west, draw=black, 
+        fill=white,align=left},
+    cycle list name=black white,
+    smooth
+]
+
+    \addplot coordinates{
+        (1,0.941517254116162)
+        (2,0.833049791172753)
+        (3,0.911012408209885) 
+   };
+   \addlegendentry{$L/D$=2.5};
+
+   \addplot coordinates{
+      (1,0.848646925806495)
+        (2,0.889383162622147)
+        (3,0.901265846062356) 
+   };
+   \addlegendentry{$L/D$=3.5};
+
+   \addplot coordinates{
+      (1,0.773775422607358)
+        (2,0.836291579743709)
+        (3,0.91821563038864) 
+   };
+   \addlegendentry{$L/D$=4.0};
+
+   \addplot coordinates{
+      (1,0.846412925696005)
+        (2,0.909313371999676)
+        (3,0.916886900310392) 
+    };
+    \addlegendentry{$L/D$=4.5};
+
+   \addplot coordinates{
+        (1,0.884302757051131)
+        (2,0.941642806394511)
+        (3,0.995341242858434) 
+    };
+    \addlegendentry{$L/D$=5.0};
+
+    \addplot coordinates{
+        (1,0.789821315674376)
+        (2,0.981738703732297)
+        (3,1.04121306622012) 
+    };
+    \addlegendentry{$L/D$=6.0};
+
+   \end{axis}
+\end{tikzpicture}

@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'wissArbeit.blg'
+[185] biber-MSWIN64:322> INFO - === 
+[233] Biber.pm:415> INFO - Reading 'wissArbeit.bcf'
+[551] Biber.pm:943> INFO - Found 55 citekeys in bib section 0
+[595] Biber.pm:4256> INFO - Processing section 0
+[595] Utils.pm:75> INFO - Globbing data source 'sookbib.bib'
+[618] Utils.pm:91> INFO - Globbed data source 'sookbib.bib' to sookbib.bib
+[658] Biber.pm:4455> INFO - Looking for bibtex format file 'sookbib.bib' for section 0
+[676] bibtex.pm:1653> INFO - LaTeX decoding ...
+[937] bibtex.pm:1471> INFO - Found BibTeX data source 'sookbib.bib'
+[1479] Utils.pm:304> WARN - year field '2016-2017' in entry 'OpenFOAMUserGuideKOmegaSST' is not an integer - this will probably not sort properly.
+[1719] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1719] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1719] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1719] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1829] bbl.pm:652> INFO - Writing 'wissArbeit.bbl' with encoding 'UTF-8'
+[1903] bbl.pm:755> INFO - Output to wissArbeit.bbl
+[1913] Biber.pm:128> INFO - WARNINGS: 1

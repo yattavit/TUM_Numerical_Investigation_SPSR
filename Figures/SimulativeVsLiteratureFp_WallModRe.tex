@@ -1,0 +1,132 @@
+%\begin{tikzpicture}
+%	\begin{axis}[
+%								xmode=log,
+%								ymode=log,
+%								xmin=1500,
+%								xmax=35000,
+%								ymin=0.1,
+%								ymax=500,
+%								width=8cm,
+%								xtick pos=left,
+%								xlabel={wall mod. Reynolds$\ \ \frac{\rho\,u_0\,d_\text{m}}{\eta (1-\varepsilon)}\ / - \ \longrightarrow$},
+%								ylabel={friction factor$\ \ \frac{\Delta p}{L} \frac{d_\text{m}}{{\rho\,u_0}^2} \frac{\varepsilon^3}{1-\varepsilon}\ / - \ \longrightarrow$},
+%								clip=false,
+%								legend cell align=left,
+%								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 1.05,0.995)}}
+%							]
+%	\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel80] {(0.351/(((x/(1-0.56))^0.05)-1.2))*((1-0.56)/0.56^3)};
+%	\addlegendentry{Wentz and Thodos}
+%	\addplot[domain=2000:30000, samples=100, color=TUMMagenta] {(150+1.75*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%	\addlegendentry{Ergun}
+%	\addplot[domain=2000:30000, samples=100, color=TUMSchwarz] {6.8*((1-0.5600619622)^1.2/(x^0.2*0.5600619622^3))};
+%	\addlegendentry{Hicks}
+%	\addplot[domain=2000:30000, samples=100, color=TUMGelbDunkel] {((150+4.2*(x/(1-0.5600619622))^(5/6))*((1-0.5600619622)^2/(0.5600619622^3*x)))};
+%	\addlegendentry{Tallmadge}
+%	\addplot[domain=2000:30000, samples=100, color=TUMGelbHell] {(276.23+5.05*(x/(1-0.56))^0.87)*((1-0.56)^2/(0.56^3*x))};
+%	\addlegendentry{Kuo and Nydegger}
+%	\addplot[domain=2000:30000, samples=100, color=TUMBlauAkzent1] {(160+3*(x/(1-0.56))^0.9)*((1-0.56)^2/(0.56^3*x))};
+%	\addlegendentry{KTA}
+%	\addplot[domain=2000:30000, samples=100, color=TUMElfenbein] {(150+3.89*(x/(1-0.56))^0.87)*((1-0.56)^2/(0.56^3*x))};
+%	\addlegendentry{Jones and Krier}
+%	\addplot[domain=2000:30000, samples=100, color=TUMGruen] {6.25*((29.32/x)+(1.56/(x^0.4942652816))+0.1)*((1-0.5600619622)^2/(0.5600619622^3))};
+%	\addlegendentry{Lee and Ogawa}
+%	\addplot[domain=2000:30000, samples=100, color=TUMLila] {(141+1.52*(x/(1-0.56))*(((1-0.56)^2)/(0.56^3*x)))};
+%	\addlegendentry{Avontuur and Geldart}
+%	\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel80] {(-13930.7336+4.48*((x/(1-0.5600619622))))*((1-0.5600619622)^2/((0.5600619622^3*x)))};
+%	\addlegendentry{O'Neill and Benyahia}
+%	\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel50] {((154*2.212121212+(1/2.579236)*(x/(1-0.5600619622))))*2.212121212*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%	\addlegendentry{Eisfeld and Schnitzlein}
+%				%\addplot[draw=TUMRotHell, thick] table[x index = 0, restrict x to domain=2000:30000, y index = 1, restrict y to domain=0.5:150, log basis y=10]{Figures/data/TurbulentSimulativeSettings.txt};
+%				%\addlegendentry{TurbulentSimulation}
+%				\addplot[draw=TUMRotHell, thick] table[x index = 0,y index = 1, log basis y=10]{Figures/data/TurbulentSimulativeSettings.txt};
+%				\addlegendentry{TurbulentSimulation}
+%	
+%\end{axis}
+%\end{tikzpicture}
+
+\begin{tikzpicture}
+\begin{axis}[
+xmode=log,
+ymode=log,
+xmin=1500,
+xmax=40000,
+ymin=0.1,
+ymax=500,
+width=8cm,
+xtick pos=left,
+xlabel={wall mod. Reynolds$\ \ \frac{\rho\,u_0\,d_m}{\eta(1-\epsilon)}\ / - \ \longrightarrow$},
+ylabel={friction factor$\ \ \frac{\Delta P}{L} \frac{d_\text{m}}{{\rho\,u_0}^2} \frac{\varepsilon^3}{1-\varepsilon}\ / - \ \longrightarrow$},
+clip=false,
+legend cell align=left,
+legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 1.05,0.995)}}
+]
+%\addplot[domain=2000:30000, samples=100, color=TUMMagenta] {(150+1.75*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%\addlegendentry{Original Ergun Equation}
+%think about how to place this in turbulent flow ltr
+
+%\addplot[domain=2000:30000, samples=100, color=TUMMagenta] {(150+1.75*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%\addlegendentry{Ergun with fw1}
+%think about how to place this in turbulent flow ltr
+
+%\addplot[domain=2000:30000, samples=100, color=TUMMagenta] {(150+1.75*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%\addlegendentry{Ergun with fw2}
+%think about how to place this in turbulent flow ltr
+
+%\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel80] {(0.351/(((x/(1-0.56))^0.05)-1.2))*((1-0.56)/0.56^3)};
+%\addlegendentry{Wentz and Thodos}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMSchwarz] {6.8*((1-0.5600619622)^1.2/(x^0.2*0.5600619622^3))
+%};
+%\addlegendentry{Hicks}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMGelbDunkel] {((150+4.2*(x/(1-0.5600619622))^(5/6))*((1-0.5600619622)^2/(0.5600619622^3*x)))}; \addlegendentry{Tallmadge}
+
+\addplot[domain=2431.588115:36473.82173, samples=100, color=TUMBlauHell] {(150+1.75*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+\addlegendentry{Original Ergun Equation}
+
+%Addition of Fp,Ergun for weighting factor counterparts,fw1 and fw2, scatter plot style.
+\addplot[only marks, mark = star, mark options={draw=TUMBlau, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/data/fp_weightingfactor_scatterpoints/fp_weightingfactor_wallmodRe_Ergun-fw-1.txt}; \addlegendentry{Ergun with weighting factor, $f_{w,1}$}
+
+\addplot[only marks, mark = otimes*, mark options={draw=TUMBlauHell20, fill=TUMBlauDunkel, scale=0.7}] table[x index = 0,y index = 1]{Figures/data/fp_weightingfactor_scatterpoints/fp_weightingfactor_wallmodRe_Ergun-fw-2.txt}; \addlegendentry{Ergun with weighting factor, $f_{w,2}$}
+%End addtion of weighting factor counterparts.
+
+
+
+\addplot[dashed, color=TUMGruenDunkel, domain=2000:30000, samples=100] {(276.23+5.05*(x/(1-0.56))^0.87)*((1-0.56)^2/(0.56^3*x))
+}; \addlegendentry{Kuo and Nydegger}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMBlauAkzent1] {(160+3*(x/(1-0.56))^0.9)*((1-0.56)^2/(0.56^3*x))}; \addlegendentry{KTA}
+
+\addplot[domain=2000:30000, samples=100, color=TUMOrange] {(150+3.89*(x/(1-0.56))^0.87)*((1-0.56)^2/(0.56^3*x))
+}; \addlegendentry{Jones and Krier}
+
+\addplot[domain=2000:30000, samples=100, color=TUMCyan] {6.25*((29.32/x)+(1.56/(x^0.4942652816))+0.1)*((1-0.5600619622)^2/(0.5600619622^3))}; \addlegendentry{Lee and Ogawa}
+
+\addplot[dash dot, color=TUMBlauAkzent2, domain=2000:30000, samples=100] {(141+1.52*(x)/(1-0.5600619622))*((1-0.5600619622)^2/(0.5600619622^3*x))}; \addlegendentry{Avontuur and Geldart}
+
+\addplot[domain=2000:30000, samples=100, color=TUMMagenta] {(-13930.7336+4.48*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+\addlegendentry{O'Neill and Benyahia}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel50] {(154*2.212121212+(1/2.579236)*(x/(1-0.5600619622)))*2.212121212*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%\addlegendentry{Eisfeld and Schnitzlein}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel50] {(180+2.871*((x/(1-0.5600619622)))^0.9)*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%\addlegendentry{Carman}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel50] {(160+3.1*((x/(1-0.5600619622)))^0.9)*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%\addlegendentry{Brauer}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel50] {(368+1.24*((x/(1-0.5600619622))))*((1-0.5600619622)^2/((0.5600619622^3*x)))};
+%\addlegendentry{Handley and Heggs}
+
+%\addplot[domain=2000:30000, samples=100, color=TUMBlauDunkel50] {(180+1.8*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+%\addlegendentry{Macdonald, El-Sayed, Mow and Dullien}
+
+%Scatter Plot of simulative values are below
+\addplot[only marks, mark options={color=TUMRotHell, mark=triangle*, scale=0.8}] table[x index = 0,y index = 1, log basis y=10]{Figures/data/WallModReynolds_fp.txt};
+\addlegendentry{Simulation}
+%end scatter plot of simulative values
+
+%try densely dashed.. approx 5 correlation for readability.
+\end{axis}
+\end{tikzpicture}

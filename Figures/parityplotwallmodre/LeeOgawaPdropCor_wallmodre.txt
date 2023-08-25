@@ -1,0 +1,7 @@
+Delta P/L [sim]	Lee and Ogawa Pdrop correlation
+4.98E+07	4.97E+06
+1.14E+08	1.03E+07
+1.99E+08	1.75E+07
+2.88E+08	2.66E+07
+1.14E+09	9.83E+07
+1.02E+10	8.19E+08

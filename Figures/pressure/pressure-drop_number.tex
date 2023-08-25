@@ -1,0 +1,34 @@
+\begin{tikzpicture}
+\begin{axis}[
+%xmode=log,
+%ymode=log,
+xmin=0,
+xmax=200,
+ymin=1E6,
+ymax=1.5E9,
+width=8cm,
+xtick pos=left,
+xlabel={superficial velocity $u_0 / \si{\metre\per\second} \longrightarrow$},
+ylabel={pressure drop $\frac{\Delta P}{L}\ /\ \si{\pascal\per\metre} \longrightarrow$},
+clip=false,
+legend cell align=left,
+legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 0.05,1)}}
+]
+\addplot[only marks, mark options={color=TUMBlauDunkel, mark=triangle*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/SuperficialVelocity_C1.txt}; \addlegendentry{$N$ = 5 (C1)}
+
+\addplot[only marks, mark options={color=TUMBlauHell, mark=triangle*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/SuperficialVelocity_C2.txt}; \addlegendentry{$N$ = 10 (C2)}
+
+\addplot[only marks, mark options={color=TUMOrange, mark=x, scale=2}] table[x index = 0,y index = 1]{Figures/pressure/data/SuperficialVelocity_A.txt}; \addlegendentry{$N$ = 20 (A)}
+
+\addplot[only marks, mark options={color=TUMBlauAkzent2, mark=triangle*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/SuperficialVelocity_C3.txt}; \addlegendentry{$N$ = 50 (C3)}
+
+\addplot[only marks, mark options={color=TUMBlauAkzent1, mark=triangle*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/SuperficialVelocity_C4.txt}; \addlegendentry{$N$ = 100 (C4)}
+
+
+\end{axis}
+\end{tikzpicture}
+
+%\addplot[only marks, mark = circle*, mark options={color=TUMBlauHell, mark=otimes*, scale=1.2}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/OriginalErgunPdropCor_wallmodre.txt}; \addlegendentry{Original Ergun}
+
+
+

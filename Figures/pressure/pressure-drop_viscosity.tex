@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+	\begin{axis}[
+								xmin=0,
+								xmax=2.5,
+								ymin=40000000,
+								ymax=60000000,
+								width=8cm,
+								xtick pos=left,
+								xlabel={normalized viscosity $\frac{\nu}{\nu _A}/ - \ \longrightarrow$},
+								ylabel={pressure drop $\frac{\Delta P}{L}\ /\ \si{\pascal\per\metre} \longrightarrow$},
+								clip=false,
+								legend cell align=left,
+								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 0.05,1)}}
+							]
+			\addplot[only marks, mark options={color=TUMBlauDunkel, mark=diamond*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/FluidViscosity_B1.txt}; \addlegendentry{$\nu/\nu_A = 0.2$ (B1)}
+			
+			\addplot[only marks, mark options={color=TUMBlauHell, mark=diamond*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/FluidViscosity_B2.txt}; \addlegendentry{$\nu/\nu_A = 0.04$ (B2)}
+			
+			\addplot[only marks, mark options={color=TUMOrange, mark=x, scale=2}] table[x index = 0,y index = 1]{Figures/pressure/data/FluidViscosity_A.txt}; \addlegendentry{$\nu_A$ (A)}
+			
+			\addplot[only marks, mark options={color=TUMBlauAkzent1, mark=diamond*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/FluidViscosity_B3.txt}; \addlegendentry{$\nu/\nu_A = 2$ (B3)}
+	\end{axis}
+\end{tikzpicture}
+
+%\addplot[only marks, mark = circle*, mark options={color=TUMBlauHell, mark=otimes*, scale=1.2}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/OriginalErgunPdropCor_wallmodre.txt}; \addlegendentry{Original Ergun}

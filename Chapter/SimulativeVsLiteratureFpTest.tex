@@ -1,0 +1,54 @@
+\begin{tikzpicture}
+	\begin{axis}[
+								xmode=log,
+								ymode=log,
+								xmin=10,
+								xmax=50000,
+								ymin=0.1,
+								ymax=500,
+								width=8cm,
+								xtick pos=left,
+								xlabel={wall mod. Reynolds$\ \ \frac{\rho\,u_0\,d_\text{m}}{\eta (1-\varepsilon)}\ / - \ \longrightarrow$},
+								ylabel={friction factor$\ \ \frac{\Delta p}{L} \frac{d_\text{m}}{{\rho\,u_0}^2} \frac{\varepsilon^3}{1-\varepsilon}\ / - \ \longrightarrow$},
+								clip=false,
+								legend cell align=left,
+								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 1.05,0.995)}}
+							]
+	\addplot[domain=10:50000, samples=100, color=TUMBlauDunkel80] {(0.351/(((x/(1-0.56))^0.05)-1.2))*((1-0.56)/0.56^3)};
+	\addlegendentry{Wentz and Thodos}
+	\addplot[domain=10:50000, samples=100, color=TUMMagenta] {(150+1.75*(x/(1-0.5600619622)))*((1-0.5600619622)^2/(0.5600619622^3*x))};
+	\addlegendentry{Ergun}
+	\addplot[domain=10:50000, samples=100, color=TUMSchwarz] {6.8*((1-0.5600619622)^1.2/(x^0.2*0.5600619622^3))};
+	\addlegendentry{Hicks}
+	\addplot[domain=10:50000, samples=100, color=TUMGelbDunkel] {((150+4.2*(x/(1-0.5600619622))^(5/6))*((1-0.5600619622)^2/(0.5600619622^3*x)))};
+	\addlegendentry{Tallmadge}
+	\addplot[domain=10:50000, samples=100, color=TUMGelbHell] {(276.23+5.05*(x/(1-0.56))^0.87)*((1-0.56)^2/(0.56^3*x))};
+	\addlegendentry{Kuo and Nydegger}
+	\addplot[domain=10:50000, samples=100, color=TUMBlauAkzent1] {(160+3*(x/(1-0.56))^0.9)*((1-0.56)^2/(0.56^3*x))};
+	\addlegendentry{KTA}
+	\addplot[domain=10:50000, samples=100, color=TUMElfenbein] {(150+3.89*(x/(1-0.56))^0.87)*((1-0.56)^2/(0.56^3*x))};
+	\addlegendentry{Jones and Krier}
+	\addplot[domain=10:50000, samples=100, color=TUMGruen] {6.25*((29.32/x)+(1.56/(x^0.4942652816))+0.1)*((1-0.5600619622)^2/(0.5600619622^3))};
+	\addlegendentry{Lee and Ogawa}
+	\addplot[domain=10:50000, samples=100, color=TUMLila] {(141+1.52*(x/(1-0.56))*(((1-0.56)^2)/(0.56^3*x)))};
+	\addlegendentry{Avontuur and Geldart}
+	\addplot[domain=10:50000, samples=100, color=TUMBlauDunkel80] {(-13930.7336+4.48*((x/(1-0.5600619622))))*((1-0.5600619622)^2/((0.5600619622^3*x)))};
+	\addlegendentry{O'Neill and Benyahia}
+	\addplot[domain=10:50000, samples=100, color=TUMBlauDunkel50] {((154*2.212121212+(1/2.579236)*(x/(1-0.5600619622))))*2.212121212*((1-0.5600619622)^2/(0.5600619622^3*x))};
+	\addlegendentry{Eisfeld and Schnitzlein}
+				%\addplot[draw=TUMRotHell, thick] table[x index = 0, restrict x to domain=2000:50000, y index = 1, restrict y to domain=0.5:150, log basis y=10]{Figures/data/TurbulentSimulativeSettings.txt};
+				%\addlegendentry{TurbulentSimulation}
+				\addplot[draw=TUMRotHell, thick] table[x index = 0,y index = 1]{};
+				\addlegendentry{asdf}
+	
+\end{axis}
+\end{tikzpicture}
+%\addplot[
+	%domain=5000:50000,
+	%samples=100,
+	%color=blue
+	%]
+	%{6.8*((1-0.5600619622)^1.2/(x^0.2*0.5600619622^3))}
+	%\addlegendentry{$Hicks$}
+	%\end{axis}
+	%\end{tikzpicture}

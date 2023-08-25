@@ -1,0 +1,300 @@
+%#########################################################################
+%Dokumentformatierung
+%#########################################################################
+\PassOptionsToPackage{cmyk}{xcolor} %cmyk is used in the project
+\documentclass[paper=a4, fontsize=12pt, fleqn, parskip, oneside, bibliography=totocnumbered, numbers=noenddot,titlepage=true]{scrbook}
+% use 'twoside' option if necessary (change if header and footer settings see below)
+%#########################################################################
+
+%#########################################################################
+% Necessary Packages
+%#########################################################################
+% language
+\usepackage[ngerman,english]{babel}		% cultural typographicals, last language ist main language
+
+% font & symbols
+\usepackage[T1]{fontenc}	% utf8: user set encoding
+\usepackage[utf8]{inputenc}	% utf8 encoding, needed for 'LaTex internal language'
+\usepackage[scaled]{helvet}	% sans-serif font 'Helvetica' for headings (TUM corporate design)
+%\renewcommand{\familydefault}{\sfdefault}	% if 'Helvetica' should be font for text also (comment next line '\usepackage{mathptmx}')
+\usepackage{mathptmx}		% serif font 'Times' for text (TUM corporate design)
+\linespread{1.2}			% set linespread
+\usepackage{latexsym}	% provides symbols
+
+% math
+\usepackage{amstext}	% math package
+\usepackage{amsmath}	% math package
+\usepackage{amsxtra}	% math package
+\usepackage{amssymb}	% math package
+\usepackage[italic]{mathastext}
+% 'isomath' sets upper case greek letters italic in accordance with 
+% the International Standard ISO 80000-2
+\usepackage{isomath}
+
+% tables
+\usepackage{longtable}	% tables over multiple pages
+\usepackage{colortbl}	% allows to color rows, columns and cells
+\usepackage{multicol}	% allows to make multiple columns
+\usepackage{multirow}	% allows to make multiple rows
+\usepackage{array}		% extends options for colum formats
+\usepackage{slashbox}	% tabular cells with diagonal lines
+\usepackage{booktabs}	% enhances quality of tables
+
+% graphics and pictures
+\usepackage[pdftex]{graphicx}
+\DeclareGraphicsExtensions{.pdf}
+\usepackage{rotating}	% for rotating figures
+\usepackage[final]{pdfpages}	% inlcudes external pdfpages
+\usepackage{pdflscape}	% allows rotated pages in pdf-file
+\usepackage{float}		% provides the 'H' positioning for floating objects
+
+% other
+\usepackage[hang]{footmisc}		% typesetting of footnotes
+\usepackage{relsize}	% change od size \larger \smaller ...
+\usepackage{enumerate}	% additional argument in enumerate environment
+\usepackage{enumitem}	% usercontrol for enumerate, itemize, description
+\usepackage{expdlist}	% provides break for itemize, enumerate ...
+\usepackage{csquotes}	% used for qotation combined with the babel package
+\usepackage{setspace}	% settings for linespaceing
+\usepackage{placeins}	% provides \FloatBarrier
+
+%#########################################################################
+% number, units and chemical symbols
+%#########################################################################
+\usepackage{siunitx}
+%\sisetup{locale=DE}
+\sisetup{detect-all=true}
+\usepackage{textcomp}	% für micro in siunitx
+\sisetup{
+detect-all=true,
+locale=UK,
+	%per-mode=symbol-or-fraction,	% symbol in text mode and fraction in math mode			
+	%output-decimal-marker = {.},	% Komma als Dezimaltrenner
+	exponent-product = \cdot,		% Punkt bei exponentiellen Zahlen
+	%quotient-mode = fraction,		% Stil: g/mol
+	list-units = single,			% Option für \SIlist
+	%list-final-separator = ~und~,	% Verbindungswort für \SIlist
+	range-units = single,			% Option für \SIrange
+	%range-phrase = ~bis~,			% Verbindungswort für \SIrange
+	sticky-per = true}				% nur ein \per pro \SI Aufruf
+
+% custom commands
+\DeclareSIPrePower\quartic{4}
+\DeclareSIPostPower\tothefourth{4}
+
+% custom units
+\DeclareSIUnit\torr{Torr}
+\DeclareSIUnit\sccm{sccm}
+\DeclareSIUnit\au{a.u.}
+\DeclareSIUnit\mmHg{mmHg}
+\DeclareSIUnit\ppm{ppm}
+\DeclareSIUnit\sr{sr}
+\DeclareSIUnit\gkat{g_{kat}}
+\DeclareSIUnit\wpercent{wt\text{-}\%}
+
+% chemical symbols
+\usepackage[version=3,arrows=pgf-filled]{mhchem}
+
+%#########################################################################
+% tikz-picture & pgfplots
+%#########################################################################
+\usepackage{tikz}
+\usetikzlibrary{calc,fadings,decorations.pathreplacing,shapes.arrows,arrows,
+	chains,matrix,positioning,scopes,spy}
+
+\usepackage{pgfplots}
+%\usepgfplotslibrary{external}		% wenn Abbildungen extern gespeichert werden sollen
+%\tikzexternalize[prefix=TIKZ/]		% wenn Abbildungen extern gespeichert werden sollen
+\usepackage{pgfplotstable}
+\pgfplotsset{grid style={dashed}}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{units}
+
+\usepackage{chemfig} % provides the command \chemifg, which draws molecules using the tikz package
+\usepackage{tikzscale} % helps scaling tikz pictures with \includegraphics
+
+%#########################################################################
+% literature
+%#########################################################################
+\usepackage[style=chem-angew, backend=biber, bibencoding=utf8, sorting=none]{biblatex} % chem-angew
+%\addbibresource{Literature.bib}
+\addbibresource{sookbib.bib}
+%\addbibresource{D:/.bib}
+
+%#########################################################################
+% figure and table caption
+%#########################################################################
+\usepackage{caption}
+\captionsetup{font=small, labelfont=bf, justification=raggedright,skip=10pt, format=plain, width=0.9\textwidth}
+
+%#########################################################################
+% subfigure
+%#########################################################################
+\usepackage{subcaption}	% standard multifigure package 
+
+%#########################################################################
+% colors
+%#########################################################################
+\usepackage[cmyk]{xcolor}
+
+%% TUM-Farben
+% Primärfarben
+	\definecolor{TUMBlau}{cmyk}{1,0.43,0,0} %Pantone 300
+	\definecolor{TUMWeiß}{cmyk}{0,0,0,0} %Weiß
+	\definecolor{TUMSchwarz}{cmyk}{0,0,0,1} %Schwarz
+% Sekundärfarben
+	\colorlet{TUMGrau80}{TUMSchwarz!80} % Grau 80%
+	\colorlet{TUMGrau50}{TUMSchwarz!50} % Grau 50%
+	\colorlet{TUMGrau20}{TUMSchwarz!20} % Grau 20%
+	\definecolor{TUMBlauHell}{cmyk}{1,0.54,0.04,0.19} %Pantone 301
+	\colorlet{TUMBlauHell80}{TUMBlauHell!80} %Pantone 301 80%
+	\colorlet{TUMBlauHell50}{TUMBlauHell!50} %Pantone 301 50%
+	\colorlet{TUMBlauHell20}{TUMBlauHell!20} %Pantone 301 20%
+	\definecolor{TUMBlauDunkel}{cmyk}{1,0.57,0.12,0.7} %Pantone 540
+	\colorlet{TUMBlauDunkel80}{TUMBlauDunkel!80} %Pantone 540 80%
+	\colorlet{TUMBlauDunkel50}{TUMBlauDunkel!50} %Pantone 540 50%
+	\colorlet{TUMBlauDunkel20}{TUMBlauDunkel!20} %Pantone 540 20%
+% Akzentfarben
+	\definecolor{TUMBlauAkzent1}{cmyk}{0.42,0.09,0,0} %Pantone 283
+	\definecolor{TUMBlauAkzent2}{cmyk}{0.65,0.19,0.01,0.04} %Pantone 542
+	\definecolor{TUMElfenbein}{cmyk}{0.03,0.04,0.14,0.08} %Elfenbein
+	\definecolor{TUMOrange}{cmyk}{0,0.65,0.95,0} %Orange
+	\definecolor{TUMGruen}{cmyk}{0.35,0,1,0.2} %Grün
+% Erweiterte Farbpalette
+	\definecolor{TUMMagenta}{cmyk}{0.5,1,0,0.4} %Magenta
+	\definecolor{TUMLila}{cmyk}{1,1,0,0.4} %Lila
+	\definecolor{TUMCyan}{cmyk}{1,0.03,0.3,0.3} %Cyan
+	\definecolor{TUMGruenDunkel}{cmyk}{1,0,1,0.2} %Grün Dunkel
+	\definecolor{TUMGruenHell}{cmyk}{0.6,0,1,0.2} %Grün Hell
+	\definecolor{TUMGelbHell}{cmyk}{0,0.1,1,0} %Gelb Hell
+	\definecolor{TUMGelbDunkel}{cmyk}{0,0.3,1,0} %Gelb Dunkel
+	\definecolor{TUMOrangeDunkel}{cmyk}{0,0.8,1,0.1} %Orange Dunkel
+	\definecolor{TUMRotHell}{cmyk}{0.1,1,1,0.1} %Rot Hell
+	\definecolor{TUMRotDunkel}{cmyk}{0,1,1,0.4} %Rot Dunkel
+
+%#########################################################################
+% page margins
+%#########################################################################
+\usepackage[
+%paperwidth=210mm,	% set by a4 option in document class
+%paperheight=297mm,	% set by a4 option in document class
+top=30mm,
+bottom=20mm,
+inner=20mm,
+outer=20mm,
+bindingoffset = 10mm,
+includehead=false, % headheight and headsep considered as part of height
+includefoot=false,
+headheight=10mm, %14mm,
+headsep=10mm, %4.4mm,
+footskip=10mm, %15mm,
+marginparsep=0mm,
+marginparwidth=0mm%,showframe
+]{geometry}
+
+%
+\raggedbottom % nice interspace
+
+% numbering of enumerate environment 1.1.1.1
+\renewcommand{\labelenumi}{\arabic{enumi}.)}{\leftmargin0cm \rightmargin1cm}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.)}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.)}
+
+%#########################################################################
+% header and footer
+%#########################################################################
+%% one sided
+\usepackage[automark,headsepline]{scrlayer-scrpage}	% constructing headers & footers
+\automark{chapter}
+\ihead[]{} \chead[]{} \ohead[]{\headmark} 
+\ifoot[]{} \cfoot[\pagemark]{\pagemark} \ofoot[]{} 
+
+%% two sided
+%\usepackage[autooneside=false,automark,headsepline]{scrlayer-scrpage}	% constructing headers & footers
+%\ihead[]{} \chead[]{} \ohead[]{\headmark} 
+%\ifoot[]{} \cfoot[]{} \ofoot[\pagemark]{\pagemark}
+
+
+\setkomafont{pageheadfoot}{\normalfont\normalcolor\small}
+\pagestyle{scrheadings}
+
+%#############################################################################
+% avoiding "Hurenkinder", "Schusterjungen" and wrong hyphenation
+%#############################################################################
+\pretolerance=250
+\tolerance=500
+\hyphenpenalty=250
+\exhyphenpenalty=100
+\hyphenchar\font=\string"7F
+\doublehyphendemerits=7500
+\finalhyphendemerits=7500
+\brokenpenalty=10000
+\lefthyphenmin=3
+\righthyphenmin=3
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\looseness=1
+
+% hyphenation example
+\hyphenation{Blumen-topf-erde} %nicht Blumento-Pferde
+\hyphenation{So-ur-ce-Co-de}
+\hyphenation{Pruf-ungs-aus-schuss}
+%#########################################################################
+% special characters
+%#########################################################################
+\newcommand{\Laplace}{\mbox{\setlength{\unitlength}{0.1em}%
+                            \begin{picture}(20,10)%
+                              \put(2,3){\circle*{4}}%
+                              \put(3,3){\line(1,0){13}}%
+                              \put(18,3){\circle{4}}%
+                            \end{picture}%
+                           }%
+                     }%
+\newcommand{\laplace}{\mbox{\setlength{\unitlength}{0.1em}%
+                            \begin{picture}(20,10)%
+                              \put(2,3){\circle{4}}%
+                              \put(4,3){\line(1,0){13}}%
+                              \put(18,3){\circle*{4}}%
+                            \end{picture}%
+                           }%
+                     }%
+%#########################################################################
+% source code
+%#########################################################################
+\usepackage{scrhack}	% listings in KOMA-Script
+\usepackage{tocbasic}	% specialized tableofcontents                    
+\usepackage{listings} 	% Typeset source code listings
+\usepackage{xpatch}		% patch to use listings
+\newlength{\blub}
+\setlength{\blub}{\textwidth - 3pt - 6pt - 3pt + 1pt} % framesep, framexrightmargin, framesep, numbersep
+\def\lstbasicfont{\fontfamily{OML}\selectfont} % verbatim-like font, basicstyle was \tt
+\def\lststandardfont{\fontfamily{pcr}\fontsize{11pt}{0.7\baselineskip}\selectfont}
+\lstset{language=C++, breaklines=true, frame=tb, linewidth=\blub, numbers=right, %
+	xleftmargin=0.5em, framesep=3pt,
+	frame=single,frameround=tttt, framexrightmargin=6pt, numbersep=-1pt,
+	basicstyle=\lststandardfont, showstringspaces=false, numberstyle=\tiny,
+	commentstyle=\color{TUMGrau50}, escapeinside={(*@}{@*)}, keywords={}
+	}
+\renewcommand\lstlistingname{Sourcecode}
+\renewcommand\lstlistlistingname{List of Source Codes} %List of Source-Codes
+
+%######################################################################### 
+% hyperref code
+%#########################################################################
+\PassOptionsToPackage{hyphens}{url}	% option for line break in urls
+
+\usepackage[pdftex,hyperindex=true, plainpages=false,
+	pdfpagelabels,pdfborderstyle={/S/U/W 1},bookmarksnumbered]{hyperref}
+
+\makeatletter	% line breaks in urls
+\g@addto@macro\UrlBreaks{
+	\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j
+	\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t
+	\do\u\do\v\do\w\do\x\do\y\do\z\do\&\do\1\do\2\do\3
+	\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+\makeatother
+%#########################################################################
+%%EOF
+%
+\frenchspacing

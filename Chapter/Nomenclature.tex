@@ -1,0 +1,162 @@
+\chapter*{Nomenclature}
+\label{Nomenclature}
+\addcontentsline{toc}{chapter}{Nomenclature}	% for bookmarks
+\markboth{Nomenclature}{Nomenclature}		% for header
+%
+%
+\subsubsection*{Latin Symbols}
+% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+\setlength{\tabcolsep}{0.5cm} 
+\begin{longtable}{p{2cm}p{8.5cm}>{\centering\arraybackslash\hspace{0pt}}p{2.5cm}} %+6*0.5cm (Summe = 16cm)
+	%$A$    & präexponentieller Faktor  & \si{\per\s} \\
+	
+
+	$A$		& area								& \si{m^2} \\
+	$F_1, F_2$ & blending functions & \si{-} \\
+	
+	$x,y,z$    & Cartesian coordinates & \si{m} \\	
+	$D$    & diameter of the confining cylinder & \si{m} \\
+	$d$    & diameter of a catalytic pellet & \si{m} \\
+	$\eta$    & dynamic viscosity & \si{kg m s^{-1}} \\
+	$\rho$   & density of the fluid & \si{kg m^{-3}} \\
+		
+	$A_t$    & empty cross-sectional area of the reactor & \si{m^2} \\
+	
+	$\nu$    & kinematic viscosity of the fluid & \si{m^2s^{-1}} \\
+			
+	$L$    & length of the string of N particles & \si{m} \\
+			
+	$d_m$    & modified diameter & \si{m} \\
+				
+	$n$    & normal direction & \si{m} \\
+	$P$    & normal/actual pressure & \si{kg m^{-1}s^{-2}} \\
+					
+	$\epsilon$    & porosity of the reactor & \si{-} \\
+	$\Delta P$    & pressure drop across the N number of catalytic pellets & \si{kg m^{-1}s^{-2}} \\
+	$P_k$    & production limiter & \si{-} \\
+	
+
+	$s$    & scaling factor & \si{-} \\
+	$S$    & surface area & \si{m^2} \\
+	$u_0$    & superficial velocity & \si{m s^{-1}} \\
+	$p$    & simulative pressure obtained in ParaView equivalent to pressure/density & \si{m^2s^{-2}} \\
+					
+	$S$    & tensor represented by the alphabet $'S'$ & \si{-} \\		
+	$k$    & turbulence kinetic energy & \si{-} \\
+	$\omega$    & turbulence specific dissapation rate & \si{-} \\
+	$I$    & turbulence intensity to set in simulation & \si{-} \\
+		$S$    & total surface area  & \si{m^2} \\
+	$V$    & total volume  & \si{m^3} \\
+	$\bar{p}$	& turbulent average property of pressure  & \si{kg m^{-1}s^{-2}} \\
+
+	$v$    & velocity & \si{m s^{-1}} \\	
+	$V$    & volume & \si{m^3} \\
+	$\dot{V}$    & volumetric flow rate & \si{m^3s^{-1}} \\
+	
+	$f$    & weighting factor & \si{-} \\	
+		
+		
+		
+	
+
+
+
+
+
+%	$u$    & Inlet Velocity & \si{m\per\s} \\
+%	$\textbf{u}$    & velocity vector & \si{m\per\s} \\
+
+
+
+%	$p$   & simulative pressure obtained in ParaView & \si{$Pa.m^3$\per kg} \\
+
+
+%	$F_t$    & additional terms related to turbulence modeling & \si{-} \\
+
+%	$u$    & inlet velocity & \si{m\per\s} \\
+	%$C \mu$    & Constant related to the calculation of \omega & \si{-} \\
+
+
+
+
+
+%	$V_p$    & total volume of N pellets occupying within the reactor & \si{m^3} \\
+
+%	$S_p$    & total surface area occupied by N pellets in the confining cylinder  & \si{m^2} \\
+%	$S_w$    & surface area of the wall & \si{m^2} \\
+\end{longtable}
+
+\subsubsection*{Greek Symbols}
+% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+\setlength{\tabcolsep}{0.5cm} 
+\begin{longtable}{p{2cm}p{8.5cm}>{\centering\arraybackslash\hspace{0pt}}p{2.5cm}} %+6*0.5cm (Summe = 16cm)
+%		$\alpha_{\text{VP}}$ 			& Abstand zum Zentrumspunkt			& -\\
+		$\epsilon$ 			& mean bed porosity			& \si{-} \\
+		$\eta$ 			& dynamic viscosity			& \si{kg m^{-1}s^{-1}} \\
+		$\nu$ 			& kinematic viscosity			& \si{m^2s^{-1}} \\
+		$\rho$ 			& fluid density			& \si{kg m^{-3}} \\	
+	$\tau$    & space time constant or residence time & \si{s} \\
+\end{longtable}
+
+%\subsubsection*{Superscript}
+%% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+%\setlength{\tabcolsep}{0.5cm} 
+%\begin{longtable}{p{2cm}p{12cm}}%+4*0.5cm (Summe = 16cm)
+%		$\text{eff}$ & effektive Größe\\
+%\end{longtable}
+
+\subsubsection*{Subscript}
+% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+\setlength{\tabcolsep}{0.5cm} 
+\begin{longtable}{p{2cm}p{12cm}}%+4*0.5cm (Summe = 16cm)
+		$\text{p}$ & catalytic pellet\\
+		%$\text{x,y,z}$    & Cartesian coordinates & \si{m} \\	
+		$\text{eff}$ & effective\\	
+		$\text{mod}$ & modified\\
+		$\text{ref}$ & reference\\
+		$\text{t}$ & turbulent\\
+		$\text{w}$ & wall\\		
+		%$\text{m}$ & Mittelwert\\
+		%$\text{\mu}$ & Mu\\
+		%$\text{ref}$ & Reference which is usually related to the inlet conditions\\
+		%$\text{0}$ & Zero, related to inlet conditions\\
+%		$\text{mod}$ & modified\\
+%		
+\end{longtable}
+
+%\newpage	% creates new page
+\subsubsection*{Dimensionless Numbers}
+% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+\setlength{\tabcolsep}{0.5cm} 
+\begin{longtable}{p{2cm}p{12cm}}%+4*0.5cm (Summe = 16cm)	
+		%$\text{Kn}$ & Knudsen-Zahl\\
+		%$\text{Re}_{\text{mf}}$ & Reynolds-Zahl bei minimaler Fluidisierung\\
+		$\text{Re}$ & Reynolds Number\\
+%		${Re_{mod}}$ & Modified Reynolds Number\\	
+\end{longtable}
+
+\subsubsection*{Abbreviations}
+% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+\setlength{\tabcolsep}{0.5cm} 
+\begin{longtable}{p{2cm}p{12cm}}%+4*0.5cm (Summe = 16cm)
+		CFD		&	computational fluid dynamics	\\		
+		SPSR		&	single pellet string reactor	\\
+		%BET		& Brunauer Emmett Teller  \\
+\end{longtable}
+
+\subsubsection*{Operators}
+% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+\setlength{\tabcolsep}{0.5cm} 
+\begin{longtable}{p{2cm}p{8.5cm}>{\centering\arraybackslash\hspace{0pt}}p{2.5cm}} %+6*0.5cm (Summe = 16cm)
+			$\nabla $    & divergence of a parameter & \si{-} \\
+\end{longtable}
+
+%\subsubsection*{Chemical Formulas}
+%% Abstand vor und nach jeder Spalte (Achtung Gesamtbreite 16cm)
+%\setlength{\tabcolsep}{0.5cm} 
+%\begin{center}
+%	\begin{longtable}{p{2cm}p{12cm}}%+6*0.5cm (Summe = 16cm)
+%  	\ce{Ar} &  Argon 				\\
+% \end{longtable}
+%\end{center}
+%

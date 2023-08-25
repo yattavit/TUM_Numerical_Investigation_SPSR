@@ -1,0 +1,202 @@
+// snappyHexMesh sphere geometry
+
+// parameters
+d   0.0008;    // sphere diameter
+D   0.001;    // cylinder diameter
+r	#calc "$d/2";    // sphere radius
+
+// sphere coordinates
+x0  #calc "($D-$d)/2*pow(-1,0)";
+x1  #calc "($D-$d)/2*pow(-1,1)";
+x2  #calc "($D-$d)/2*pow(-1,2)";
+x3  #calc "($D-$d)/2*pow(-1,3)";
+x4  #calc "($D-$d)/2*pow(-1,4)";
+x5  #calc "($D-$d)/2*pow(-1,5)";
+x6  #calc "($D-$d)/2*pow(-1,6)";
+x7  #calc "($D-$d)/2*pow(-1,7)";
+x8  #calc "($D-$d)/2*pow(-1,8)";
+x9  #calc "($D-$d)/2*pow(-1,9)";
+x10  #calc "($D-$d)/2*pow(-1,10)";
+x11  #calc "($D-$d)/2*pow(-1,11)";
+x12  #calc "($D-$d)/2*pow(-1,12)";
+x13  #calc "($D-$d)/2*pow(-1,13)";
+x14  #calc "($D-$d)/2*pow(-1,14)";
+x15  #calc "($D-$d)/2*pow(-1,15)";
+x16  #calc "($D-$d)/2*pow(-1,16)";
+x17  #calc "($D-$d)/2*pow(-1,17)";
+x18  #calc "($D-$d)/2*pow(-1,18)";
+x19  #calc "($D-$d)/2*pow(-1,19)";
+
+y    0;
+
+z0  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*0+1.1*$d";
+z1  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*1+1.1*$d";
+z2  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*2+1.1*$d";
+z3  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*3+1.1*$d";
+z4  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*4+1.1*$d";
+z5  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*5+1.1*$d";
+z6  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*6+1.1*$d";
+z7  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*7+1.1*$d";
+z8  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*8+1.1*$d";
+z9  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*9+1.1*$d";
+z10  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*10+1.1*$d";
+z11  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*11+1.1*$d";
+z12  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*12+1.1*$d";
+z13  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*13+1.1*$d";
+z14  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*14+1.1*$d";
+z15  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*15+1.1*$d";
+z16  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*16+1.1*$d";
+z17  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*17+1.1*$d";
+z18  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*18+1.1*$d";
+z19  #calc "$d/2+sqrt(pow($d,2)-pow(($D-$d),2))*19+1.1*$d";
+
+// geometry entry for snappyHexMesh
+geometry
+{
+    sphere0
+    {
+        type    searchableSphere;
+        centre  ($x0 $y $z0);
+        radius  $r;
+    }
+
+    sphere1
+    {
+        type    searchableSphere;
+        centre  ($x1 $y $z1);
+        radius  $r;
+    }
+
+    sphere2
+    {
+        type    searchableSphere;
+        centre  ($x2 $y $z2);
+        radius  $r;
+    }
+
+    sphere3
+    {
+        type    searchableSphere;
+        centre  ($x3 $y $z3);
+        radius  $r;
+    }
+
+    sphere4
+    {
+        type    searchableSphere;
+        centre  ($x4 $y $z4);
+        radius  $r;
+    }
+
+    sphere5
+    {
+        type    searchableSphere;
+        centre  ($x5 $y $z5);
+        radius  $r;
+    }
+
+    sphere6
+    {
+        type    searchableSphere;
+        centre  ($x6 $y $z6);
+        radius  $r;
+    }
+
+    sphere7
+    {
+        type    searchableSphere;
+        centre  ($x7 $y $z7);
+        radius  $r;
+    }
+
+    sphere8
+    {
+        type    searchableSphere;
+        centre  ($x8 $y $z8);
+        radius  $r;
+    }
+
+    sphere9
+    {
+        type    searchableSphere;
+        centre  ($x9 $y $z9);
+        radius  $r;
+    }
+
+    sphere10
+    {
+        type    searchableSphere;
+        centre  ($x10 $y $z10);
+        radius  $r;
+    }
+
+    sphere11
+    {
+        type    searchableSphere;
+        centre  ($x11 $y $z11);
+        radius  $r;
+    }
+
+    sphere12
+    {
+        type    searchableSphere;
+        centre  ($x12 $y $z12);
+        radius  $r;
+    }
+
+    sphere13
+    {
+        type    searchableSphere;
+        centre  ($x13 $y $z13);
+        radius  $r;
+    }
+
+    sphere14
+    {
+        type    searchableSphere;
+        centre  ($x14 $y $z14);
+        radius  $r;
+    }
+
+    sphere15
+    {
+        type    searchableSphere;
+        centre  ($x15 $y $z15);
+        radius  $r;
+    }
+
+    sphere16
+    {
+        type    searchableSphere;
+        centre  ($x16 $y $z16);
+        radius  $r;
+    }
+
+    sphere17
+    {
+        type    searchableSphere;
+        centre  ($x17 $y $z17);
+        radius  $r;
+    }
+
+    sphere18
+    {
+        type    searchableSphere;
+        centre  ($x18 $y $z18);
+        radius  $r;
+    }
+
+    sphere19
+    {
+        type    searchableSphere;
+        centre  ($x19 $y $z19);
+        radius  $r;
+    }
+
+    inertBedEntrance.stl 
+    { 
+        type 	 triSurfaceMesh; 
+        name 	 inertBedEntrance; 
+    } 
+
+}; 

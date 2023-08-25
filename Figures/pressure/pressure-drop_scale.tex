@@ -1,0 +1,42 @@
+%\begin{tikzpicture}
+%	\begin{axis}[
+%								xmin=9,
+%								xmax=200,
+%								ymin=2E6,
+%								ymax=5E7,
+%								width=8cm,
+%								xtick pos=left,
+%								xlabel={scaling factor $s/ - \ \longrightarrow$},
+%								ylabel={pressure drop $\frac{\Delta p}{L} / Pa\:m^{-1} - \ \longrightarrow$},
+%								clip=false,
+%								legend cell align=left,
+%								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north east, at={(rel axis cs: 0.99,0.995)}}
+%							]
+%			\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x index = 0,y index = 1]{Figures/pressure/data/ScalingFactor.txt};
+%	\end{axis}
+%\end{tikzpicture}
+
+\begin{tikzpicture}
+\begin{axis}[
+xmin=0.5,
+xmax=2,
+ymin=4E7,
+ymax=9E7,
+width=8cm,
+xtick pos=left,
+xlabel={scaling factor $s/ - \ \longrightarrow$},
+ylabel={pressure drop $\frac{\Delta P}{L}\ /\ \si{\pascal\per\metre} \longrightarrow$},
+clip=false,
+legend cell align=left,
+legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 0.05,1)}}
+]
+\addplot[only marks, mark options={color=TUMOrange, mark=x, scale=2}] table[x index = 0,y index = 1]{Figures/pressure/data/ScalingFactor_A.txt}; \addlegendentry{$s = d/d_A = 1.0$ (A)}
+
+\addplot[only marks, mark options={color=TUMBlauDunkel, mark=otimes*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/ScalingFactor_E1.txt}; \addlegendentry{$s = d/d_A = 1.5$ (E1)}
+
+%\addplot[only marks, mark options={color=TUMBlauHell, mark=otimes*, scale=1.4}] table[x index = 0,y index = 1]{Figures/pressure/data/ScalingFactor_E2.txt}; \addlegendentry{$s = d/d_A = 2.0$ (E2)}
+
+\end{axis}
+\end{tikzpicture}
+
+%\addplot[only marks, mark = circle*, mark options={color=TUMBlauHell, mark=otimes*, scale=1.2}] table[x index = 0,y index = 1]{Figures/parityplotwallmodre/OriginalErgunPdropCor_wallmodre.txt}; \addlegendentry{Original Ergun}

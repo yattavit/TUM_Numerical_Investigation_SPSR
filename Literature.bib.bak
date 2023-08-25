@@ -1,0 +1,49 @@
+% Encoding: windows-1252
+
+
+@Article{Dormans2006,
+  Title                    = {OMCVD of transition metals and their suicides using metallocenes and (di) silane or silicon tetra-bromide},
+  Author                   = {G. J. M. Dormans},
+  Year                     = {2006},
+  Pages                    = {806-816},
+  Volume                   = {108},
+
+  Journal                  = {Journal of Crystal Growth}
+}
+
+@Manual{Sumatra,
+  Title                    = {TeXnicCenter mit Sumatra PDF},
+  Author                   = {M. Hehn AND B. Danowski},
+  Year                     = {2009},
+  Url                      = {http://www.golatex.de/download,id,447.html},
+  Urldate                  = {2016-03-30}
+}
+
+@Book{Hitchman1993,
+  Title                    = {Chemical Vapor Deposition},
+  Author                   = {Hitchman, M. L. AND Jensen, K. F.},
+  Year                     = {1993},
+  ISBN                     = {0-12-349670-5},
+  Publisher                = {Academic Press},
+  Volume                   = {1}
+}
+
+@Book{Kleppmann2013,
+  Title                    = {Versuchsplanung: Produkte und Prozesse optimieren},
+  Author                   = {Kleppmann, W.},
+  Year                     = {2013},
+  ISBN                     = {9783446437913},
+  Publisher                = {Carl Hanser Verlag GmbH \& Company KG},
+  Series                   = {Praxisreihe Qualit{\"a}tswissen}
+}
+
+@Manual{VisualTikZ2018,
+  title        = {Visual TikZ},
+  author       = {J. P. Casteleyni},
+  organization = {IUT Génie Thermique et Énergie, Dunkerque, France},
+  year         = {2018},
+  url          = {http://tug.ctan.org/info/visualtikz/VisualTikZ.pdf},
+  urldate      = {2018-11-26},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

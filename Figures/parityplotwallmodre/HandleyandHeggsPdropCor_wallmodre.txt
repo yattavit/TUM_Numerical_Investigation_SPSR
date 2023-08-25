@@ -1,0 +1,7 @@
+Delta P/L [sim]	Handley and Heggs Pdrop correlation
+4.98E+07	1.58E+07
+1.14E+08	3.49E+07
+1.99E+08	6.13E+07
+2.88E+08	9.52E+07
+1.14E+09	3.76E+08
+1.02E+10	3.36E+09

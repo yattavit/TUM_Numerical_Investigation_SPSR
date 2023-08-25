@@ -1,0 +1,50 @@
+\begin{tikzpicture}
+	\begin{axis}[
+								xmode=log,
+								ymode=log,
+								xmin=4E7,
+								xmax=1.2E10,
+								ymin=1E6,
+								ymax=2E10,
+								width=10cm,
+								xtick pos=left,
+								xlabel={pressure drop by simulation$\ \ \big[\frac{\Delta P}{L}\big]_{sim}\  /\ \si{\pascal\per\metre} \ \longrightarrow$},
+								ylabel={pressure drop by correlation$\ \ \big[\frac{\Delta P}{L}\big]_{cor}\  /\ \si{\pascal\per\metre} \ \longrightarrow$},
+								clip=false,
+								legend cell align=left,
+								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 1.05,0.995)}}
+							]
+\addplot[only marks, mark = circle*, mark options={color=TUMBlauHell, mark=otimes*, scale=1.2}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/ErgunPdropCor_Nre.txt}; \addlegendentry{Original Ergun Equation}
+			
+%						\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/WentzThodosPdropCor_Nre.txt}; \addlegendentry{WentzThodos}
+						
+%						\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/HicksPdropCor_Nre.txt}; \addlegendentry{Hicks}
+						
+%						\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/TallmadgePdropCor_Nre.txt}; \addlegendentry{Tallmadge}
+						
+\addplot[only marks, mark = star, mark options={draw=TUMBlau, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/KuoNydeggerPdropCor_Nre.txt}; \addlegendentry{Kuo and Nydegger}
+						
+%						\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/KTAPdropCor_Nre.txt}; \addlegendentry{KTA}
+						
+\addplot[only marks, mark = diamond*, mark options={draw=TUMElfenbein, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/JonesKrierPdropCor_Nre.txt}; \addlegendentry{Jones and Krier}
+						
+\addplot [only marks, color=TUMMagenta, mark=star] table[x index = 0,y index = 1]{Figures/parityplotnormalre/LeeOgawaPdropCor_Nre.txt}; \addlegendentry{Lee and Ogawa}
+						
+\addplot[only marks, mark = triangle*, mark options={color=TUMBlauHell, scale=1}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/AvontuurGeldartPdropCor_Nre.txt}; \addlegendentry{Avontuur and Geldart}
+						
+\addplot[only marks, mark = diamond*, mark options={draw=TUMGruenDunkel, fill=TUMGruenDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/OneillBenyahiaPdropCor_Nre.txt}; \addlegendentry{O'Neill and Benyahia}
+						
+%						\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/parityplotnormalre/EisfeldSchnitzleinPdropCor_Nre.txt}; \addlegendentry{EisfeldSchnitzlein}
+						
+						% draw the diagonal
+        	\addplot[domain=4E7:1.2E10, samples=2, color=TUMSchwarz] {x}; \addlegendentry{Parity}
+        	%draw the 10% envelope for upper and lower limit
+        	\addplot[dashed, domain=4E7:1.2E10, samples=2, color=TUMSchwarz] {0.9*x};
+        	\addplot[dashed, domain=4E7:1.2E10, samples=2, color=TUMSchwarz] {1.1*x};
+        	\addlegendentry{10\% envelope}
+        	%draw the 50% envelope upper and lower limit
+        	\addplot[dotted, domain=4E7:1.2E10, samples=2, color=TUMSchwarz] {0.5*x};
+        	\addplot[dotted, domain=4E7:1.2E10, samples=2, color=TUMSchwarz] {1.5*x};
+        	\addlegendentry{50\% envelope}
+\end{axis}
+\end{tikzpicture}

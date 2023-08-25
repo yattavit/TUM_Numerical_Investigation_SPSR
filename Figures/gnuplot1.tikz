@@ -1,0 +1,14 @@
+	\begin{tikzpicture}[spy using outlines={circle,
+	magnification=15,
+	size=3cm,
+	connect spies}]
+	\begin{axis}[ width=\textwidth,domain=-5:5, %
+	restrict y to domain=-10:10, %
+	axis x line=center, axis y line=center,%
+	xtick={-5,...,5}, ytick={-5,...,5}
+	]
+	\addplot[mark=none, color=black] gnuplot[samples=500,id=eins]{x^2/(1-x^2)};
+	\addplot[mark=none, color=red,thin]  plot[samples=100]{x^2/(1-x^2)}; % ohne gnuplot 
+	\end{axis}
+	\spy [red] on (8.9,3) in node at (3,1);
+	\end{tikzpicture}

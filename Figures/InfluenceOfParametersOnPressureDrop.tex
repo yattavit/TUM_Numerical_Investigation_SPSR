@@ -1,0 +1,140 @@
+\begin{tikzpicture}
+	\begin{axis}[
+								xmin=0,
+								xmax=2.5,
+								ymin=40000000,
+								ymax=60000000,
+								width=8cm,
+								xtick pos=left,
+								xlabel={normalized viscosity $\frac{\nu}{\nu _A}/ - \ \longrightarrow$},
+								ylabel={pressure drop $\frac{\Delta p}{L} / Pa\:m^{-1} - \ \longrightarrow$},
+								clip=false,
+								legend cell align=left,
+								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north west, at={(rel axis cs: 0.99,0.995)}}
+							]
+	%
+			%\addplot[draw=TUMBlauDunkel80, thick] table[x index = 0, y index = 1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed] table[x index = 0, y expr = \thisrowno{1}*0.9]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted] table[x index = 0, y expr = \thisrowno{1}*0.5]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.5]{Figures/data/Ergun.txt};
+			%
+			%\addplot[draw=TUMBlauAkzent2, thick, densely dashed] table[x index = 0, y index = 1, restrict y to domain=-0.12:10, log basis y=10]{Figures/data/Blake.txt};
+			%
+			%
+			\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/data/FluidViscosity_B1.txt};	\addlegendentry{$\nu/\nu_A = 0.2$ (B1)}
+			\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/data/FluidViscosity_B2.txt}; \addlegendentry{$\nu/\nu_A = 0.04$ (B2)}
+			\addplot[only marks, mark = x, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/data/FluidViscosity_A.txt}; \addlegendentry{$\nu_A$ (A)}
+			\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/data/FluidViscosity_B3.txt}; \addlegendentry{$\nu/\nu_A = 2$ (B3)}
+%			\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x index = 0,y index = 1]{Figures/data/FluidViscosity_B2.txt};
+%			\addplot[only marks, mark = *, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.2}] table[x index = 0,y index = 1]{Figures/data/FluidViscosity_B2.txt};
+%			\addplot[only marks, mark = x, mark options={draw=TUMOrange, scale=1.4}, very thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+%		
+%			\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x index = 0,y index = 1]{Figures/data/FluidViscosity_B1.txt};
+			%\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x = xErgun, y = yErgun]{Figures/data/case_e_3_data_paper.xy};
+		
+			%\addplot[only marks, mark = x, mark options={draw=TUMOrange, fill=TUMOrange, scale=1.4}, thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+	\end{axis}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\begin{axis}[
+								xmin=9,
+								xmax=200,
+								ymin=2E6,
+								ymax=5E7,
+								width=8cm,
+								xtick pos=left,
+								xlabel={superficial velocity $u_0 / m\,s^{-1} - \ \longrightarrow$},
+								ylabel={pressure drop $\frac{\Delta p}{L} / Pa\:m^{-1} - \ \longrightarrow$},
+								clip=false,
+								legend cell align=left,
+								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north east, at={(rel axis cs: 0.99,0.995)}}
+							]
+	%
+			%\addplot[draw=TUMBlauDunkel80, thick] table[x index = 0, y index = 1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed] table[x index = 0, y expr = \thisrowno{1}*0.9]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted] table[x index = 0, y expr = \thisrowno{1}*0.5]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.5]{Figures/data/Ergun.txt};
+			%
+			%\addplot[draw=TUMBlauAkzent2, thick, densely dashed] table[x index = 0, y index = 1, restrict y to domain=-0.12:10, log basis y=10]{Figures/data/Blake.txt};
+			%
+			%
+			%\addplot[only marks, mark = x, mark options={draw=TUMOrange, scale=1.4}, very thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+			%
+			%\addplot[only marks, mark = *, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.2}] table[x = x, y = y]{Figures/data/FluidViscosity.txt};
+			\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x index = 0,y index = 1]{Figures/data/SuperficialVelocity.txt};
+			%\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x = xErgun, y = yErgun]{Figures/data/case_e_3_data_paper.xy};
+			%\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x = xErgun, y = yErgun]{Figures/data/case_f_0_data_paper.xy};
+			%\addplot[only marks, mark = x, mark options={draw=TUMOrange, fill=TUMOrange, scale=1.4}, thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+	\end{axis}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\begin{axis}[
+								xmin=9,
+								xmax=200,
+								ymin=2E6,
+								ymax=5E7,
+								width=8cm,
+								xtick pos=left,
+								xlabel={diameter aspect ratio $\frac{D}{d} - \ \longrightarrow$},
+								ylabel={pressure drop $\frac{\Delta p}{L} / Pa\:m^{-1} - \ \longrightarrow$},
+								clip=false,
+								legend cell align=left,
+								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north east, at={(rel axis cs: 0.99,0.995)}}
+							]
+	%
+			%\addplot[draw=TUMBlauDunkel80, thick] table[x index = 0, y index = 1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed] table[x index = 0, y expr = \thisrowno{1}*0.9]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted] table[x index = 0, y expr = \thisrowno{1}*0.5]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.5]{Figures/data/Ergun.txt};
+			%
+			%\addplot[draw=TUMBlauAkzent2, thick, densely dashed] table[x index = 0, y index = 1, restrict y to domain=-0.12:10, log basis y=10]{Figures/data/Blake.txt};
+			%
+			%
+			%\addplot[only marks, mark = x, mark options={draw=TUMOrange, scale=1.4}, very thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+			%
+			%\addplot[only marks, mark = *, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.2}] table[x = x, y = y]{Figures/data/FluidViscosity.txt};
+			\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x index = 0,y index = 1]{Figures/data/DiameterAspectRatio.txt};
+			%\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x = xErgun, y = yErgun]{Figures/data/case_e_3_data_paper.xy};
+			%\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x = xErgun, y = yErgun]{Figures/data/case_f_0_data_paper.xy};
+			%\addplot[only marks, mark = x, mark options={draw=TUMOrange, fill=TUMOrange, scale=1.4}, thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+	\end{axis}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\begin{axis}[
+								xmin=9,
+								xmax=200,
+								ymin=2E6,
+								ymax=5E7,
+								width=8cm,
+								xtick pos=left,
+								xlabel={scaling factor $s/ - \ \longrightarrow$},
+								ylabel={pressure drop $\frac{\Delta p}{L} / Pa\:m^{-1} - \ \longrightarrow$},
+								clip=false,
+								legend cell align=left,
+								legend style={draw=none, font=\small, column sep=0.3em, fill=none, anchor=north east, at={(rel axis cs: 0.99,0.995)}}
+							]
+	%
+			%\addplot[draw=TUMBlauDunkel80, thick] table[x index = 0, y index = 1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed] table[x index = 0, y expr = \thisrowno{1}*0.9]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, dashed, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.1]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted] table[x index = 0, y expr = \thisrowno{1}*0.5]{Figures/data/Ergun.txt};
+			%\addplot[draw=TUMBlauDunkel80, densely dotted, forget plot] table[x index = 0, y expr = \thisrowno{1}*1.5]{Figures/data/Ergun.txt};
+			%
+			%\addplot[draw=TUMBlauAkzent2, thick, densely dashed] table[x index = 0, y index = 1, restrict y to domain=-0.12:10, log basis y=10]{Figures/data/Blake.txt};
+			%
+			%
+			%\addplot[only marks, mark = x, mark options={draw=TUMOrange, scale=1.4}, very thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+			%
+			%\addplot[only marks, mark = *, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.2}] table[x = x, y = y]{Figures/data/FluidViscosity.txt};
+			\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x index = 0,y index = 1]{Figures/data/ScalingFactor.txt};
+			%\addplot[only marks, mark = triangle*, mark options={draw=TUMBlauAkzent1, fill=TUMBlauAkzent1, scale=1.8}] table[x = xErgun, y = yErgun]{Figures/data/case_e_3_data_paper.xy};
+			%\addplot[only marks, mark = diamond*, mark options={draw=TUMBlauDunkel, fill=TUMBlauDunkel, scale=1.4}] table[x = xErgun, y = yErgun]{Figures/data/case_f_0_data_paper.xy};
+			%\addplot[only marks, mark = x, mark options={draw=TUMOrange, fill=TUMOrange, scale=1.4}, thick] table[x = xErgun, y = yErgun]{Figures/data/case_a_ana_0_data_paper.xy};
+	\end{axis}
+\end{tikzpicture}

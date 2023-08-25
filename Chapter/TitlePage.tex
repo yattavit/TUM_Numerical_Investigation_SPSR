@@ -1,0 +1,51 @@
+%
+%Titelseite
+%
+%
+\newgeometry{top=30mm, bottom=10mm, inner=10mm, outer=10mm, bindingoffset = 10mm}
+\newpairofpagestyles[scrheadings]{firstpage}{
+	\ihead{\parbox[c][\headheight][c]{0.5\textwidth}{\color{TUMBlau}\fontsize{9}{9}\selectfont 
+			Chair I of Technical Chemistry\\ Department of Chemistry\\ Technical University of Munich}}
+	\ohead{\parbox[c][\headheight][c]{0.2\textwidth}{\hfill\includegraphics[height=\headheight]{Figures/Logo/TUM_Logo_cmyk.pdf}}}
+	%
+	\ifoot{}\cfoot{}\ofoot{}
+}
+\begin{titlepage}
+	\thispagestyle{firstpage}
+	\vspace*{1cm}
+	\begingroup 
+	\fontsize{30}{30}\sffamily\selectfont
+	\textbf{Numerical Investigation of Pressure \newline Drop at Turbulent Flow Conditions in Single Pellet String Reactors}
+	\par
+	\endgroup
+	
+	\begingroup
+	\fontsize{24}{24}\sffamily\selectfont
+%	-Deutscher Titel-
+	\par
+	\endgroup
+	
+	\vspace*{1cm}
+	%
+	\begingroup 
+	\fontsize{24}{24}\sffamily\selectfont
+	Bachelor's Thesis \\
+	\par
+	\endgroup
+	\vfill
+%	
+	\begin{tabular}{@{}ll@{}}
+		Student:  & Yong Sook Prasit Attavit				\\
+		Supervisor: & Prof. Dr.-Ing. Kai-Olaf Hinrichsen\\
+                  &        Johanna Fernengel, M.Sc.\\
+								& \\[-0.1cm]
+		Date of Submission:     & {\today} \\
+	\end{tabular}
+	\vspace{2em}
+	%
+	\cleardoublepage
+\end{titlepage}
+%
+%
+%EOF
+%

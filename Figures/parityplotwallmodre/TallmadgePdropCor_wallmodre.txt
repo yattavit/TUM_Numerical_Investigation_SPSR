@@ -1,0 +1,7 @@
+Delta P/L [sim]	Tallmadge Pdrop correlation
+4.98E+07	1.28E+07
+1.14E+08	2.66E+07
+1.99E+08	4.48E+07
+2.88E+08	6.73E+07
+1.14E+09	2.38E+08
+1.02E+10	1.78E+09

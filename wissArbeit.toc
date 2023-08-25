@@ -1,0 +1,41 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{Abstract}{ii}{section*.1}%
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {chapter}{List of Figures}{v}{section*.5}%
+\contentsline {chapter}{List of Tables}{vi}{section*.7}%
+\contentsline {chapter}{List of Source-Codes}{vii}{chapter*.9}%
+\contentsline {chapter}{Nomenclature}{viii}{chapter*.10}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Single Pellet String Reactors}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Numerical Simulation with CFD}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}OpenFOAM as a CFD Program}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Turbulence Modelling}{5}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Reynolds Decomposition and Averaging}{6}{subsubsection.2.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.3}$k-\omega $-SST model}{8}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}SST Model Formulation}{9}{subsubsection.2.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.4}The law of the wall}{10}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}Model Description and Implementation}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Geometry}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Governing Equations}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Estimation on Turbulent Region in SPSRs}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Case set-ups}{18}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Base Case}{18}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Parameter Study}{19}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Influence of Fluid Viscosity}{19}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}Influence of Flow Velocity}{20}{subsubsection.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.3}Influence of Diameter Aspect Ratio and Geometry Scaling Factor}{20}{subsubsection.3.4.2.3}%
+\contentsline {subsection}{\numberline {3.4.3}Pressure Drop Correlations}{21}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Adjustments related to Turbulent Flow}{22}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Extraction of Pressure Drop Values From Simulations in ParaView}{24}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Parameter Study}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Comparison to Literature}{33}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Friction Factor}{33}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Parity Plots}{36}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{42}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Bibliography}{44}{appendix.A}%

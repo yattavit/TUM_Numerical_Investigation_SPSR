@@ -1,0 +1,7 @@
+Delta P/L [sim]	Avontuur and Geldart Pdrop correlation
+4.98E+07	1.86E+07
+1.14E+08	4.15E+07
+1.99E+08	7.35E+07
+2.88E+08	1.15E+08
+1.14E+09	4.57E+08
+1.02E+10	4.10E+09

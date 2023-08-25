@@ -1,0 +1,7 @@
+Delta P/L [sim]	Original Ergun Pdrop correlation
+4.98E+07	6.54E+06
+1.14E+08	1.46E+07
+1.99E+08	2.59E+07
+2.88E+08	4.04E+07
+1.14E+09	1.61E+08
+1.02E+10	1.45E+09

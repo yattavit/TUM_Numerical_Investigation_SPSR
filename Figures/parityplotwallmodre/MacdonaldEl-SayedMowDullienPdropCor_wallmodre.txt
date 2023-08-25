@@ -1,0 +1,7 @@
+Delta P/L [sim]	Macdonald, El-Sayed, Mow and Dullien Pdrop correlation
+4.98E+07	2.20E+07
+1.14E+08	4.92E+07
+1.99E+08	8.72E+07
+2.88E+08	1.36E+08
+1.14E+09	5.41E+08
+1.02E+10	4.86E+09

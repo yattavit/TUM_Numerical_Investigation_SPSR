@@ -1,0 +1,7 @@
+Delta P/L [sim]	O'Neill and Benyahia Pdrop correlation
+4.98E+07	5.04E+06
+1.14E+08	1.99E+07
+1.99E+08	4.29E+07
+2.88E+08	7.42E+07
+1.14E+09	3.54E+08
+1.02E+10	3.52E+09

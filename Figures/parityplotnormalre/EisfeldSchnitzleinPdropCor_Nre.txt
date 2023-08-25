@@ -1,0 +1,7 @@
+Delta P/L [sim]	Eisfeld and Schnitzlein Pdrop correlation
+4.98E+07	3.75E+06
+1.14E+08	7.99E+06
+1.99E+08	1.38E+07
+2.88E+08	2.12E+07
+1.14E+09	8.16E+07
+1.02E+10	7.16E+08
