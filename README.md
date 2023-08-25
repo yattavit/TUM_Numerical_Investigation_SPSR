@@ -1,4 +1,4 @@
-# Numerical Investigation of Pressure Drop at Turbulent Flow Conditions in Single Pellet String Reactors [LaTeX, OpenFOAM®, ParaView, Linux]
+# Numerical Investigation of Pressure Drop at Turbulent Flow Conditions in Single Pellet String Reactors [LaTeX, OpenFOAM®, ParaView, Linux, C++]
 
 Written in LaTeX, [Link](https://www.latex-project.org/)
 
